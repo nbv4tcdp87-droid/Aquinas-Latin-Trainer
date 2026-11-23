@@ -1,0 +1,88 @@
+# Question 6: the goodness of God.
+
+= Secundo, utrum Deus sit summum bonum.
+@ I q. 6 pr.
+> Second, whether God is the highest good.
+Secundo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+summum | adj | →bonum | summus
+bonum | n | nom sg n | subject-complement | bonus
+. | punct
+
+= Quarto, utrum omnia sint bona bonitate divina.
+@ I q. 6 pr.
+> Fourth, whether all things are good by the divine goodness.
+Quarto | adv
+, | punct
+utrum | conj
+omnia | pn | nom pl | subject | omnis
+sint | v | 3 pl pres subj | indirect-question | sum
+bona | adj | →- | bonus
+bonitate | n | abl sg f | abl-instrument,abl-cause | bonitās
+divina | adj | →bonitate | dīvīnus
+. | punct
+
+= Videtur quod esse bonum non conveniat Deo.
+@ I q. 6 a. 1 arg. 1
+> It seems that being good does not belong to God.
+Videtur | v | 3 sg pres ind | impersonal-verb,head-verb | videō
+quod | conj
+esse | vinf | pres act | subject-infinitive | sum
+bonum | adj | →- | bonus
+non | adv
+conveniat | v | 3 sg pres subj | quod-clause,intransitive-verb | conveniō
+Deo | n | dat sg m | indirect-object,dat-reference | Deus
+. | punct
+
+= Praeterea, bonum est quod omnia appetunt.
+@ I q. 6 a. 1 arg. 2
+> Furthermore, the good is that which all things desire.
+! Aristotle's definition of the good, from the first sentence of the Nicomachean Ethics.
+Praeterea | adv
+, | punct
+bonum | n | nom sg n | subject | bonus
+est | v | 3 sg pres ind | linking-verb | sum
+quod | pn | acc sg | direct-object | quī
+omnia | pn | nom pl | subject | omnis
+appetunt | v | 3 pl pres ind | transitive-verb | appetō
+. | punct
+
+= Respondeo dicendum quod bonum esse praecipue Deo convenit.
+@ I q. 6 a. 1 co.
+> I answer that it must be said that being good belongs to God above all.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+bonum | adj | →- | bonus
+esse | vinf | pres act | subject-infinitive | sum
+praecipue | adv
+Deo | n | dat sg m | indirect-object,dat-reference | Deus
+convenit | v | 3 sg pres ind | quod-clause,intransitive-verb | conveniō
+. | punct
+
+= Unumquodque autem appetit suam perfectionem.
+@ I q. 6 a. 1 co.
+> But each thing desires its own perfection.
+Unumquodque | pn | nom sg | subject | ūnusquisque
+autem | conj
+appetit | v | 3 sg pres ind | transitive-verb | appetō
+suam | adj | →perfectionem | suus
+perfectionem | n | acc sg f | direct-object | perfectiō
+. | punct
+
+= Sed Deus est summe simplex, ut supra ostensum est.
+@ I q. 6 a. 2 arg. 1
+> But God is supremely simple, as was shown above.
+Sed | conj
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | linking-verb | sum
+summe | adv
+simplex | adj | →Deus | simplex
+, | punct
+ut | conj
+supra | adv
+ostensum est | v | 3 sg perf ind | impersonal-verb,passive-verb | ostendō
+. | punct

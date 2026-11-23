@@ -1,0 +1,119 @@
+# Question 7: the infinity of God.
+
+= Primo, utrum Deus sit infinitus.
+@ I q. 7 pr.
+> First, whether God is infinite.
+Primo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+infinitus | adj | →Deus | īnfīnītus
+. | punct
+
+= Tertio, utrum aliquid possit esse infinitum secundum magnitudinem.
+@ I q. 7 pr.
+> Third, whether anything can be infinite in magnitude.
+Tertio | adv
+, | punct
+utrum | conj
+aliquid | pn | nom sg | subject | aliquis
+possit | v | 3 sg pres subj | indirect-question | possum
+esse | vinf | pres act | complementary-infinitive | sum
+infinitum | adj | →- | īnfīnītus
+secundum | prep
+magnitudinem | n | acc sg f | object-of-prep | māgnitūdō
+. | punct
+
+= Considerandum est igitur quod infinitum dicitur aliquid ex eo quod non est finitum.
+@ I q. 7 a. 1 co.
+> It must be considered, therefore, that something is called infinite because it is not finite.
+! Ex eo quod, "from the fact that": eo points ahead to the quod clause.
+Considerandum est | v | 3 sg pres ind | passive-periphrastic,head-verb | ~cōnsīderō
+igitur | conj
+quod | conj
+infinitum | adj | →- | īnfīnītus
+dicitur | v | 3 sg pres ind | quod-clause,passive-verb | dīcō
+aliquid | pn | nom sg | subject | aliquis
+ex | prep
+eo | pn | abl sg | object-of-prep | is
+quod | conj
+non | adv
+est | v | 3 sg pres ind | linking-verb | sum
+finitum | adj | →- | fīnītus
+. | punct
+
+= Finitur autem quodammodo et materia per formam, et forma per materiam.
+@ I q. 7 a. 1 co.
+> But in a certain way both matter is limited by form and form by matter.
+! Et ... et, "both ... and"; finitur is understood again with forma.
+Finitur | v | 3 sg pres ind | passive-verb | fīniō
+autem | conj
+quodammodo | adv
+et | conj
+materia | n | nom sg f | subject | māteria
+per | prep
+formam | n | acc sg f | object-of-prep | forma
+, | punct
+et | conj
+forma | n | nom sg f | subject | forma
+per | prep
+materiam | n | acc sg f | object-of-prep | māteria
+. | punct
+
+= Si igitur essentia Dei est infinita, oportet quod eius virtus sit infinita.
+@ I q. 7 a. 2 arg. 1
+> If, then, the essence of God is infinite, his power must be infinite.
+Si | conj
+igitur | conj
+essentia | n | nom sg f | subject | essentia
+Dei | n | gen sg m | possessive | Deus
+est | v | 3 sg pres ind | linking-verb | sum
+infinita | adj | →essentia | īnfīnītus
+, | punct
+oportet | v | 3 sg pres ind | impersonal-verb,head-verb | oportet
+quod | conj
+eius | pn | gen sg | possessive | is
+virtus | n | nom sg f | subject | virtūs
+sit | v | 3 sg pres subj | quod-clause,linking-verb | sum
+infinita | adj | →virtus | īnfīnītus
+. | punct
+
+= Omne autem quod est praeter Deum, est ex Deo sicut ex primo principio.
+@ I q. 7 a. 2 s. c.
+> But everything that exists besides God is from God as from its first principle.
+Omne | pn | nom sg | subject | omnis
+autem | conj
+quod | pn | nom sg | subject | quī
+est | v | 3 sg pres ind | intransitive-verb | sum
+praeter | prep
+Deum | n | acc sg m | object-of-prep | Deus
+, | punct
+est | v | 3 sg pres ind | intransitive-verb,linking-verb | sum
+ex | prep
+Deo | n | abl sg m | object-of-prep,abl-place-from-which | Deus
+sicut | adv
+ex | prep
+primo | adj | →principio | prīmus
+principio | n | abl sg n | object-of-prep | prīncipium
+. | punct
+
+= Sed omne corpus superficiem habens est finitum, quia superficies est terminus corporis finiti.
+@ I q. 7 a. 3 s. c.
+> But every body that has a surface is finite, because a surface is the limit of a finite body.
+! Habens is a present participle: "having a surface".
+Sed | conj
+omne | adj | →corpus | omnis
+corpus | n | nom sg n | subject | corpus
+superficiem | n | acc sg f | direct-object | superficiēs
+habens | adj | →corpus | habeō
+est | v | 3 sg pres ind | linking-verb | sum
+finitum | adj | →corpus | fīnītus
+, | punct
+quia | conj
+superficies | n | nom sg f | subject | superficiēs
+est | v | 3 sg pres ind | linking-verb | sum
+terminus | n | nom sg m | subject-complement | terminus
+corporis | n | gen sg n | possessive | corpus
+finiti | adj | →corporis | fīnītus
+. | punct

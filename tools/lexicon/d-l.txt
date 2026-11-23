@@ -1,0 +1,204 @@
+N|daemon|daemonis|m.|3rd|demon||
+Prep|dē + ablative||||about, concerning; from, down from||
+V|dēbeō|dēbēre, dēbuī, dēbitum||2nd|to owe; ought, must||
+N|dēbilitās|dēbilitātis|f.|3rd|weakness||
+Num|decem||||ten||
+N|dēcursus|dēcursūs|m.|4th|course, running down||
+V|dēsum|deesse, dēfuī, ——||irregular|to be lacking, fail||
+N|dēfectus|dēfectūs|m.|4th|defect, lack, failing||
+N|dēfīnītiō|dēfīnītiōnis|f.|3rd|definition||
+Adv|deinde||||then, next, afterward||
+N|deitās|deitātis|f.|3rd|deity, Godhead||
+A|dēlectābilis, dēlectābile|||3rd|delightful, pleasant||
+A|dēmōnstrābilis, dēmōnstrābile|||3rd|demonstrable, provable||
+N|dēmōnstrātiō|dēmōnstrātiōnis|f.|3rd|demonstration, proof||
+V|dēmōnstrō|dēmōnstrāre, dēmōnstrāvī, dēmōnstrātum||1st|to demonstrate, prove, show||
+V|dēpendeō|dēpendēre, dēpendī, ——||2nd|to depend (on), hang from||
+V|dēsīderō|dēsīderāre, dēsīderāvī, dēsīderātum||1st|to desire, long for||
+V|dēterminō|dētermināre, dētermināvī, dēterminātum||1st|to determine, define, settle|dēterminātus: determinate, definite|
+N|Deus|Deī|m.|2nd|God||forms:dii deorum
+V|dīcō|dīcere, dīxī, dictum||3rd|to say, tell, call|dīcendum est quod: it must be said that|
+N|diēs|diēī|m.|5th|day||
+N|differentia|differentiae|f.|1st|difference; differentia (what distinguishes a species)||
+V|differō|differre, distulī, dīlātum||irregular|to differ; put off|differēns: different|
+A|diffūsīvus, diffūsīva, diffūsīvum|||1st|diffusive, spreading itself|bonum est diffūsīvum suī: the good spreads itself|
+N|dignitās|dignitātis|f.|3rd|dignity, worth, rank||
+A|dignus, digna, dignum|||1st|worthy||
+N|dīmēnsiō|dīmēnsiōnis|f.|3rd|dimension||
+N|disciplīna|disciplīnae|f.|1st|discipline, branch of learning||
+V|dispōnō|dispōnere, disposuī, dispositum||3rd|to arrange, dispose||
+V|disputō|disputāre, disputāvī, disputātum||1st|to dispute, discuss||
+A|dissimilis, dissimile|||3rd|unlike, dissimilar||
+V|distō|distāre, ——, ——||1st|to be distant, differ||
+A|dīversus, dīversa, dīversum|||1st|different, diverse||
+N|dīversitās|dīversitātis|f.|3rd|diversity, difference||
+V|dīvidō|dīvidere, dīvīsī, dīvīsum||3rd|to divide||
+A|dīvīnus, dīvīna, dīvīnum|||1st|divine||
+Adv|dīvīnitus||||divinely, by God||
+A|dīvīsibilis, dīvīsibile|||3rd|divisible||
+N|dīvīsiō|dīvīsiōnis|f.|3rd|division||
+V|dō|dare, dedī, datum||1st|to give, grant|datō quod: granted that|
+N|doctrīna|doctrīnae|f.|1st|teaching, doctrine|sacra doctrīna: sacred doctrine (theology)|
+N|dominus|dominī|m.|2nd|lord, master; the Lord||forms:domine
+N|domus|domūs|f.|4th|house, home||forms:domum domo domui
+Num|duo, duae, duo||||two||forms:duo duae duorum duarum duobus duabus duos duas
+N|dulcēdō|dulcēdinis|f.|3rd|sweetness||
+C|dum||||while, as long as||
+A|duplex, duplicis|||3rd|twofold, double||
+Adv|dupliciter||||in two ways||
+N|dūrātiō|dūrātiōnis|f.|3rd|duration||
+Prep|ē, ex + ablative||||out of, from|ex parte: on the part of|
+V|efficiō|efficere, effēcī, effectum||3rd (-iō)|to bring about, effect, make|causa efficiēns: efficient cause|
+N|effectus|effectūs|m.|4th|effect||
+A|effectīvus, effectīva, effectīvum|||1st|effective, productive||
+V|effluō|effluere, efflūxī, ——||3rd|to flow out||
+Pr|ego||||I||forms:ego mei mihi me
+N|ēlēctiō|ēlēctiōnis|f.|3rd|choice, election||
+C|enim||||for, indeed|second word in its clause|
+N|ēns|entis|n.|3rd|being, a being, that which is||pnoun
+N|epistola|epistolae|f.|1st|letter, epistle||
+N|equus|equī|m.|2nd|horse||
+C|ergō||||therefore||
+N|essentia|essentiae|f.|1st|essence||
+A|essentiālis, essentiāle|||3rd|essential||
+Adv|essentiāliter||||essentially||
+C|et||||and; also, even|et ... et: both ... and|
+Adv|etiam||||also, even||
+V|excēdō|excēdere, excessī, excessum||3rd|to exceed, go beyond||
+N|excellentia|excellentiae|f.|1st|excellence||
+V|excellō|excellere, ——, ——||3rd|to excel, surpass||
+A|exemplāris, exemplāre|||3rd|exemplary, serving as a model|causa exemplāris: exemplar cause|
+V|exeō|exīre, exiī, exitum||irregular|to go out, come forth||
+V|existō|existere, extitī, ——||3rd|to exist, be|classical exsistō|
+N|exordium|exordiī|n.|2nd|beginning||
+V|expōnō|expōnere, exposuī, expositum||3rd|to explain, expound; set forth||
+V|extendō|extendere, extendī, extēnsum||3rd|to extend, stretch out||
+A|exterior, exterius|||comparative|outer, exterior||
+Prep|extrā + accusative||||outside, beyond||
+V|faciō|facere, fēcī, factum||3rd (-iō)|to make, do||
+A|falsus, falsa, falsum|||1st|false||
+N|fidēs|fideī|f.|5th|faith||
+V|figūrō|figūrāre, figūrāvī, figūrātum||1st|to shape, form; represent figuratively||
+N|figūra|figūrae|f.|1st|figure, shape; figure of speech||
+A|fīnālis, fīnāle|||3rd|final|causa fīnālis: final cause|
+V|fīniō|fīnīre, fīnīvī, fīnītum||4th|to limit, bound, finish||
+N|fīnis|fīnis|m.|3rd|end, goal, purpose; limit||
+A|fīnītus, fīnīta, fīnītum|||1st|finite, limited||
+V|fīō|fierī, factus sum||irregular|to become, be made, happen||
+N|forma|formae|f.|1st|form||
+A|formālis, formāle|||3rd|formal||
+Adv|formāliter||||formally||
+V|fundō|fundāre, fundāvī, fundātum||1st|to found, establish||
+A|futūrus, futūra, futūrum|||1st|future, about to be||
+V|generō|generāre, generāvī, generātum||1st|to generate, beget, produce||
+N|genus|generis|n.|3rd|genus, kind, class||
+N|glōria|glōriae|f.|1st|glory||
+N|grātia|grātiae|f.|1st|grace||
+V|habeō|habēre, habuī, habitum||2nd|to have, hold; (pass.) to be held, be found|sē habēre: to be (in some condition)|
+N|habitūdō|habitūdinis|f.|3rd|relation, condition||
+N|habitus|habitūs|m.|4th|habit, disposition, state||
+Pr|hic, haec, hoc||||this; he, she, it|ad hoc quod: in order that|
+N|historia|historiae|f.|1st|history, story||
+A|historicus, historica, historicum|||1st|historical||
+N|homō|hominis|m.|3rd|human being, man||
+A|honestus, honesta, honestum|||1st|honorable, virtuous|honestum: the virtuous good|
+N|hōra|hōrae|f.|1st|hour||
+Pr|huiusmodi||||of this kind, such|indeclinable|
+A|hūmānus, hūmāna, hūmānum|||1st|human||
+N|hūmānitās|hūmānitātis|f.|3rd|humanity, human nature||
+Adv|iam||||already, now||
+Adv|ibi||||there||
+Adv|ibīdem||||in the same place||
+N|idea|ideae|f.|1st|idea||
+Pr|īdem, eadem, idem||||the same||
+Adv|ideō||||therefore, for that reason||
+Adv|idest||||that is, i.e.|written id est in classical Latin|
+C|igitur||||therefore||
+N|ignis|ignis|m.|3rd|fire||
+Pr|ille, illa, illud||||that; he, she, it|secundum illud: according to that (passage)|
+N|imāgō|imāginis|f.|3rd|image||
+V|imāginor|imāginārī, imāginātus sum||1st|to imagine||dep
+V|imitor|imitārī, imitātus sum||1st|to imitate||dep
+Adv|immediātē||||immediately, without anything in between||
+A|immōbilis, immōbile|||3rd|immovable, motionless||
+A|immūtābilis, immūtābile|||3rd|unchangeable, immutable||
+N|immūtābilitās|immūtābilitātis|f.|3rd|immutability, unchangeableness||
+A|imperfectus, imperfecta, imperfectum|||1st|imperfect, incomplete||
+V|importō|importāre, importāvī, importātum||1st|to imply, signify, convey||
+A|impossibilis, impossibile|||3rd|impossible||
+Prep|in + ablative||||in, on||
+Prep|in + accusative||||into, to, toward; for||
+V|incidō|incidere, incidī, incāsum||3rd|to fall into, occur||
+V|incipiō|incipere, incēpī, inceptum||3rd (-iō)|to begin||
+A|incircumscrīptibilis, incircumscrīptibile|||3rd|uncircumscribable, unbounded||
+N|inclīnātiō|inclīnātiōnis|f.|3rd|inclination||
+V|inclūdō|inclūdere, inclūsī, inclūsum||3rd|to include, enclose||
+A|inconveniēns, inconvenientis|||3rd|unfitting, absurd|inconveniēns est: it is absurd|
+Adv|inconvenienter||||unfittingly||
+A|incorporālis, incorporāle|||3rd|incorporeal||
+A|incorporeus, incorporea, incorporeum|||1st|incorporeal||
+Adv|inde||||from there, thence; hence||
+V|indigeō|indigēre, indiguī, ——||2nd|to need, require||
+V|individuō|individuāre, individuāvī, individuātum||1st|to individuate, make individual||
+N|individuum|individuī|n.|2nd|individual||
+A|indīvīsibilis, indīvīsibile|||3rd|indivisible||
+A|indīvīsus, indīvīsa, indīvīsum|||1st|undivided||
+V|indūcō|indūcere, indūxī, inductum||3rd|to lead in, bring about, induce||
+A|īnferior, īnferius|||comparative|lower, inferior||
+N|īnfernus|īnfernī|m.|2nd|hell, the underworld||
+A|īnfimus, īnfima, īnfimum|||1st|lowest||
+N|īnfīnītās|īnfīnītātis|f.|3rd|infinity||
+A|īnfīnītus, īnfīnīta, īnfīnītum|||1st|infinite, unlimited|in īnfīnītum: to infinity|
+A|īnfirmus, īnfirma, īnfirmum|||1st|weak, infirm||
+N|īnfōrmātiō|īnfōrmātiōnis|f.|3rd|informing, shaping (by a form)||
+Prep|īnfrā + accusative||||below, beneath||
+N|innovātiō|innovātiōnis|f.|3rd|renewal, change||
+C|inquantum||||insofar as, inasmuch as||
+V|īnspīrō|īnspīrāre, īnspīrāvī, īnspīrātum||1st|to breathe into, inspire||
+V|īnstruō|īnstruere, īnstrūxī, īnstrūctum||3rd|to instruct, equip||
+V|īnsum|inesse, īnfuī, ——||irregular|to be in, be present in||
+Adv|intantum||||to such an extent, so far|intantum ... inquantum: to the extent that|
+A|intellēctīvus, intellēctīva, intellēctīvum|||1st|intellective, intellectual||
+N|intellēctus|intellēctūs|m.|4th|intellect, understanding||
+A|intelligibilis, intelligibile|||3rd|intelligible||
+V|intelligō|intelligere, intellēxī, intellēctum||3rd|to understand|classical intellegō|
+N|intentiō|intentiōnis|f.|3rd|intention, aim; concept||
+Prep|inter + accusative||||between, among||
+A|interminābilis, interminābile|||3rd|endless, without limit||
+A|intrānsmūtābilis, intrānsmūtābile|||3rd|unchangeable||
+V|intrō|intrāre, intrāvī, intrātum||1st|to enter||
+A|invariābilis, invariābile|||3rd|invariable||
+V|inveniō|invenīre, invēnī, inventum||4th|to find, discover|invenītur: is found|
+V|investīgō|investīgāre, investīgāvī, investīgātum||1st|to investigate, search out||
+Adv|invicem||||each other, mutually, in turn||
+Pr|ipse, ipsa, ipsum||||-self; the very|ipsum esse: being itself|
+N|īra|īrae|f.|1st|anger, wrath||
+Pr|is, ea, id||||he, she, it; this, that|eō quod: because|
+Pr|iste, ista, istud||||that, this||
+Adv|ita||||so, thus, in such a way|ita ... quod: so ... that|
+Adv|item||||likewise, also||
+Adv|iterum||||again||
+N|iūdicium|iūdiciī|n.|2nd|judgment||
+V|iūdicō|iūdicāre, iūdicāvī, iūdicātum||1st|to judge||
+N|iūstitia|iūstitiae|f.|1st|justice||
+N|lapis|lapidis|m.|3rd|stone||
+N|lātitūdō|lātitūdinis|f.|3rd|width, breadth||
+V|laudō|laudāre, laudāvī, laudātum||1st|to praise||
+N|lēx|lēgis|f.|3rd|law||
+N|liber|librī|m.|2nd|book||
+C|licet||||although (+ subjunctive)||
+N|lignum|lignī|n.|2nd|wood||
+N|līnea|līneae|f.|1st|line||
+N|littera|litterae|f.|1st|letter; the letter (literal text)||
+A|litterālis, litterāle|||3rd|literal|sēnsus litterālis: literal sense|
+A|locālis, locāle|||3rd|local, of place|mōtus locālis: local motion|
+V|locō|locāre, locāvī, locātum||1st|to place, locate||
+N|locus|locī|m.|2nd|place||forms:loca locorum
+N|longitūdō|longitūdinis|f.|3rd|length||
+A|longus, longa, longum|||1st|long||
+V|loquor|loquī, locūtus sum||3rd|to speak||dep
+N|lūmen|lūminis|n.|3rd|light|lūmen nātūrāle: the natural light (of reason)|
+N|lūx|lūcis|f.|3rd|light||
+N|doctor|doctōris|m.|3rd|teacher, doctor (of the Church)||
+V|doceō|docēre, docuī, doctum||2nd|to teach||
+V|gerō|gerere, gessī, gestum||3rd|to carry on, do|gesta: deeds|

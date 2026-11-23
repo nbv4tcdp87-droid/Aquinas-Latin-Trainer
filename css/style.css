@@ -1,0 +1,676 @@
+:root {
+  --maroon: #7a1f2b;
+  --maroon-dark: #5c1620;
+  --gold: #b8892b;
+  --cream: #faf6ee;
+  --paper: #ffffff;
+  --ink: #2a2422;
+  --ink-soft: #5a534d;
+  --border: #e3dccc;
+  --good: #2e7d4f;
+  --bad: #b3382c;
+  --shadow: 0 2px 8px rgba(60, 40, 20, 0.08);
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.latin {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a { color: var(--maroon); }
+
+header.site-header {
+  background: linear-gradient(135deg, var(--maroon), var(--maroon-dark));
+  color: #fff;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  box-shadow: var(--shadow);
+}
+
+header.site-header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+header.site-header h1 a { color: #fff; text-decoration: none; }
+
+nav.site-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+
+nav.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  background: rgba(255,255,255,0.08);
+  transition: background 0.15s;
+}
+
+/* Hover styles apply only where the pointer can really hover (a mouse). A touch screen leaves the spot of the
+   last tap "hovered", so when the next question's choices fill the same boxes, the one in that spot looked
+   pressed. A press is shown with :active instead. */
+nav.site-nav a:active, nav.site-nav a.active {
+  background: rgba(255,255,255,0.22);
+}
+@media (hover: hover) { nav.site-nav a:hover { background: rgba(255,255,255,0.22); } }
+
+/* Level 1 / Level 2 textbook switch in the header */
+.book-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.08);
+}
+.book-switch-label { font-size: 0.82rem; opacity: 0.85; padding: 0 6px 0 8px; }
+.book-switch button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 7px;
+  font-size: 0.88rem;
+}
+.book-switch button:active { background: rgba(255,255,255,0.16); }
+@media (hover: hover) { .book-switch button:hover { background: rgba(255,255,255,0.16); } }
+.book-switch button[aria-pressed="true"] { background: #fff; color: var(--maroon-dark); font-weight: 600; }
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+.card h2 { margin-top: 0; font-family: Georgia, serif; color: var(--maroon-dark); }
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.section-tile {
+  display: block;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+
+.section-tile:active { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(60,40,20,0.14); }
+@media (hover: hover) { .section-tile:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(60,40,20,0.14); } }
+
+.section-tile .icon { font-size: 2rem; }
+.section-tile h3 { margin: 10px 0 6px; color: var(--maroon-dark); font-family: Georgia, serif; }
+.section-tile p { margin: 0; color: var(--ink-soft); font-size: 0.94rem; }
+
+button, .btn {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--maroon);
+  background: var(--maroon);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.05s;
+}
+
+@media (hover: hover) { button:hover, .btn:hover { background: var(--maroon-dark); } }
+button:active, .btn:active { background: var(--maroon-dark); transform: scale(0.98); }
+
+button.secondary, .btn.secondary {
+  background: transparent;
+  color: var(--maroon);
+}
+@media (hover: hover) { button.secondary:hover, .btn.secondary:hover { background: rgba(122,31,43,0.08); } }
+button.secondary:active, .btn.secondary:active { background: rgba(122,31,43,0.08); }
+
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+select, input[type="text"] {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--ink);
+}
+
+.chapter-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.chapter-chip {
+  border: 1px solid var(--border);
+  background: #fff;
+  padding: 7px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.chapter-chip.selected {
+  background: var(--maroon);
+  color: #fff;
+  border-color: var(--maroon);
+}
+
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  background: var(--border);
+  color: var(--ink-soft);
+}
+
+footer.site-footer {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  padding: 30px 20px 50px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 40px 20px;
+}
+
+/* ---- Flashcards ---- */
+.flashcard-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.flashcard {
+  width: 100%;
+  max-width: 480px;
+  height: 280px;
+  perspective: 1200px;
+  cursor: pointer;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: var(--paper);
+}
+
+.flashcard-face.back { transform: rotateY(180deg); background: #fff7ea; }
+
+.flashcard-face .word { font-size: 2rem; font-family: Georgia, serif; color: var(--maroon-dark); }
+.flashcard-face .word.compact { font-size: 1.5rem; max-width: 90%; }
+.flashcard-face .word.compact-sm { font-size: 1.15rem; max-width: 95%; line-height: 1.3; }
+/* The back of a card: the word's usage note (dīcendum est quod: it must be said that) and how often the Summa uses it */
+.flashcard-face .card-note { margin-top: 12px; max-width: 90%; font-size: 0.95rem; color: var(--ink); font-style: italic; line-height: 1.35; }
+.flashcard-face .card-count { margin-top: 10px; font-size: 0.85rem; color: var(--ink-soft); }
+.flashcard-face .sub { color: var(--ink-soft); margin-top: 10px; font-size: 1rem; }
+.flashcard-face .hint { position: absolute; bottom: 14px; color: var(--ink-soft); font-size: 0.78rem; }
+
+.flashcard-controls { display: flex; gap: 10px; align-items: center; }
+.progress-text { color: var(--ink-soft); font-size: 0.9rem; }
+
+.mode-toggle { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.mode-toggle button { background: transparent; color: var(--maroon); }
+.mode-toggle button.active { background: var(--maroon); color: #fff; }
+
+/* ---- Learn mode (MC) ---- */
+.mc-prompt {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  color: var(--maroon-dark);
+  margin: 10px 0 22px;
+}
+.mc-sub { text-align: center; color: var(--ink-soft); margin-top: -14px; margin-bottom: 20px; }
+/* Derivative Practice's hint after a wrong answer: the Latin word's meaning,
+   under the prompt, and each choice's definition */
+.mc-meaning { text-align: center; color: var(--ink-soft); margin-top: -14px; margin-bottom: 22px; }
+.mc-option .mc-word { display: block; }
+.mc-option .mc-definition { display: block; margin-top: 4px; font-size: 0.85rem; color: var(--ink-soft); }
+
+.mc-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 560px) { .mc-options { grid-template-columns: 1fr; } }
+
+.mc-option {
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1.5px solid var(--border);
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+}
+/* Override the general button hover and press fill, which hid the option's text. The outline is for a real
+   hover or a press only, so a touch screen doesn't keep the box where the last tap landed outlined when
+   the next choices appear there. */
+@media (hover: hover) { .mc-option:hover { border-color: var(--maroon); background: #fff; } }
+.mc-option:not(:disabled):active { border-color: var(--maroon); background: #fff; }
+.mc-option.correct { background: #e5f4ea; border-color: var(--good); }
+.mc-option.incorrect { background: #fbe8e6; border-color: var(--bad); }
+.mc-option:disabled { cursor: default; opacity: 1; }
+.mc-option:disabled:not(.correct):not(.incorrect) { opacity: 0.5; }
+
+/* Learning Mode's typed questions: the English, then a box for the Latin */
+.typed-pos { text-align: center; color: var(--ink-soft); font-size: 0.9rem; margin: -16px 0 18px; }
+.typed-answer { display: flex; gap: 10px; max-width: 560px; margin: 0 auto; }
+.typed-answer input[type="text"] { flex: 1 1 auto; min-width: 0; font-size: 1.15rem; padding: 10px 12px; }
+.typed-answer input.correct { background: #e5f4ea; border-color: var(--good); }
+.typed-answer input.incorrect { background: #fbe8e6; border-color: var(--bad); }
+.typed-macrons { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; margin-top: 10px; }
+.typed-macrons button { padding: 4px 10px; }
+.typed-feedback { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; margin-top: 16px; min-height: 2.2em; }
+.typed-feedback.correct { color: var(--good); font-weight: 600; }
+.typed-feedback.incorrect { color: var(--bad); }
+.typed-feedback .latin { font-size: 1.15rem; color: var(--ink); }
+
+.stat-row { display: flex; gap: 20px; justify-content: center; margin: 14px 0; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat .num { font-size: 1.5rem; font-weight: 600; color: var(--maroon-dark); }
+.stat .label { font-size: 0.8rem; color: var(--ink-soft); }
+
+/* ---- Grammar charts ---- */
+table.chart {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 14px;
+}
+table.chart th, table.chart td {
+  border: 1px solid var(--border);
+  padding: 6px;
+  text-align: center;
+}
+table.chart th {
+  background: #f5efe0;
+  color: var(--maroon-dark);
+  font-family: Georgia, serif;
+}
+table.chart td input {
+  width: 100%;
+  min-width: 70px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  padding: 6px 4px;
+  border-radius: 5px;
+}
+table.chart td input:focus { outline: 2px solid var(--gold); background: #fffdf6; }
+table.chart td.correct input { background: #e5f4ea; }
+table.chart td.incorrect input { background: #fbe8e6; }
+table.chart td.case-label { font-weight: 600; background: #faf6ee; }
+/* A chart with a column per gender: a "Singular" row and its cases, then a "Plural" row and its cases.
+   The comparison chart (positive, comparative, superlative) shares the phone rules. On phones the case and
+   gender names shorten so that the columns fit the screen. */
+table.chart tr.number-row th { text-align: left; padding: 4px 8px; font-size: 0.85rem; background: #faf6ee; }
+table.chart.gender-chart .label-short, table.chart.compare-chart .label-short { display: none; }
+@media (max-width: 560px) {
+  table.chart.gender-chart td, table.chart.compare-chart td { padding: 5px 3px; }
+  table.chart.gender-chart td.case-label { font-size: 0.9rem; }
+  table.chart.compare-chart th { font-size: 0.9rem; padding: 6px 3px; }
+  table.chart.gender-chart .label-full, table.chart.compare-chart .label-full { display: none; }
+  table.chart.gender-chart .label-short, table.chart.compare-chart .label-short { display: inline; }
+  table.chart.gender-chart td input, table.chart.compare-chart td input { min-width: 0; font-size: 0.9rem; padding: 6px 2px; }
+}
+/* The longest forms (eōrundem, eārundem) need the padding trimmed on the narrowest phones */
+@media (max-width: 380px) {
+  table.chart.gender-chart td, table.chart.compare-chart td { padding: 5px 1px; }
+  table.chart.gender-chart td input, table.chart.compare-chart td input { padding: 6px 1px; }
+}
+@media (max-width: 340px) {
+  table.chart.gender-chart td, table.chart.compare-chart td { padding: 5px 0; }
+  table.chart.gender-chart td input, table.chart.compare-chart td input { font-size: 0.78rem; padding: 6px 0; }
+}
+
+/* Translating a correctly conjugated verb chart */
+.translate-offer { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 12px; color: var(--good); font-weight: 600; }
+.translate-cell { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.translate-latin { font-weight: 700; color: var(--maroon-dark); min-width: 5.5em; text-align: left; overflow-wrap: anywhere; }
+table.chart td .translate-cell input { flex: 1 1 8em; text-align: left; border-bottom: 1px dashed var(--border); }
+table.chart.translate-chart .label-short { display: none; }
+@media (max-width: 560px) {
+  .translate-latin { font-size: 0.9rem; }
+  table.chart.translate-chart td { padding: 5px 4px; }
+  table.chart.translate-chart .label-full { display: none; }
+  table.chart.translate-chart .label-short { display: inline; }
+}
+
+.chart-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+
+/* The verb synopsis (Level 2): its choices, then one table per mood */
+.synopsis-group { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.synopsis-pick { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+h3.synopsis-mood { margin: 18px 0 0; color: var(--maroon-dark); font-family: Georgia, serif; }
+table.chart.synopsis-chart { margin-top: 8px; }
+table.chart.synopsis-chart td.case-label { width: 9em; }
+table.chart.synopsis-chart .label-short { display: none; }
+@media (max-width: 560px) {
+  table.chart.synopsis-chart td { padding: 5px 3px; }
+  table.chart.synopsis-chart td.case-label { width: auto; font-size: 0.9rem; }
+  table.chart.synopsis-chart .label-full { display: none; }
+  table.chart.synopsis-chart .label-short { display: inline; }
+  table.chart.synopsis-chart td input { min-width: 0; font-size: 0.9rem; padding: 6px 2px; }
+}
+/* A select sizes itself to its longest option (e.g. full principal parts
+   plus meaning); keep it inside the card on narrow screens. */
+.chart-toolbar select { max-width: 100%; min-width: 0; }
+
+/* ---- Translation section ---- */
+.sentence-list { display: flex; flex-direction: column; gap: 10px; }
+.sentence-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.sentence-item:active { border-color: var(--maroon); }
+@media (hover: hover) { .sentence-item:hover { border-color: var(--maroon); } }
+.sentence-item .latin { font-size: 1.05rem; }
+.sentence-item .sentence-number { display: inline-block; min-width: 1.5em; font-weight: 700; color: var(--maroon-dark); }
+.sentence-item .status { font-size: 0.8rem; }
+.status.done { color: var(--good); }
+
+.analysis-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  margin: 6px 4px;
+  gap: 4px;
+}
+.analysis-word .word-text {
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  padding: 2px 4px;
+}
+.analysis-word select {
+  font-size: 0.72rem;
+  padding: 3px 4px;
+  max-width: 128px;
+}
+/* Wraps when a verb has four fields (person / number / tense / mood). */
+.analysis-word .field-row { display: flex; gap: 3px; flex-wrap: wrap; justify-content: center; max-width: 280px; }
+.analysis-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 18px 10px;
+  background: #fffdf6;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.plain-word {
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  margin: 6px 4px;
+  color: var(--ink-soft);
+  align-self: center;
+}
+.analysis-word.checked-correct .word-text { background: #e5f4ea; border-radius: 5px; }
+.analysis-word.checked-incorrect .word-text { background: #fbe8e6; border-radius: 5px; }
+select.field-bad { border-color: var(--bad); background: #fbe8e6; }
+select.field-good { border-color: var(--good); background: #e5f4ea; }
+
+.legend { font-size: 0.85rem; color: var(--ink-soft); margin-top: 8px; }
+
+.punct-inline {
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  margin: 6px 2px 6px -3px;
+  color: var(--ink-soft);
+  align-self: center;
+}
+
+.score-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #fff7ea;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-bottom: 14px;
+}
+.score-banner.all-correct { background: #e5f4ea; border-color: var(--good); }
+
+.translation-box textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin: 8px 0;
+  resize: vertical;
+  background: #fff;
+  color: var(--ink);
+}
+
+.model-translation {
+  background: #fff7ea;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0;
+}
+/* The sentence's grammar note, shown with the model translation */
+.model-translation .model-note { margin-top: 8px; font-size: 0.92rem; color: var(--ink-soft); }
+
+/* Level 1: the verdict on the typed translation */
+.translation-box button { margin-right: 8px; }
+.translation-verdict {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.translation-verdict:empty { display: none; }
+.translation-verdict.matched { background: #e5f4ea; border-color: var(--good); color: var(--good); }
+.translation-verdict.missed { background: #fff7ea; }
+
+/* ---- Lessons ---- */
+.lesson-list { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+/* Each lesson in the list is a button, so it drops the general button colors */
+.lesson-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+@media (hover: hover) { .lesson-item:hover { background: #fff; border-color: var(--maroon); } }
+.lesson-item:active { background: #fff; border-color: var(--maroon); transform: none; }
+.lesson-num {
+  flex: 0 0 auto;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: var(--maroon);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: Georgia, serif;
+}
+.lesson-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.lesson-title { font-family: Georgia, serif; font-size: 1.08rem; color: var(--maroon-dark); font-weight: 600; }
+.lesson-summary { color: var(--ink-soft); font-size: 0.92rem; }
+.lesson-status { margin-left: auto; padding-left: 8px; font-size: 0.82rem; color: var(--ink-soft); white-space: nowrap; }
+.lesson-status.done { color: var(--good); font-weight: 600; }
+
+/* A lesson's card gives its paradigm tables a little more room on phones */
+@media (max-width: 560px) { #lessonCard { padding: 18px 14px; } }
+.lesson-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.lesson-jump { font-size: 0.9rem; }
+.lesson-heading { margin-bottom: 6px; }
+.lesson-intro { font-size: 1.05rem; }
+.lesson-body h3, .practice-heading { font-family: Georgia, serif; color: var(--maroon-dark); margin: 28px 0 8px; font-size: 1.2rem; }
+.lesson-body p, .lesson-body li { line-height: 1.6; }
+.lesson-body ul { padding-left: 22px; }
+.lesson-body li { margin: 4px 0; }
+em.latin { font-style: italic; }
+
+/* An example from the Summa: the Latin, an English version, a note, and where it comes from */
+.lesson-example {
+  border-left: 3px solid var(--gold);
+  background: #fffdf6;
+  padding: 9px 14px;
+  margin: 12px 0;
+  border-radius: 0 8px 8px 0;
+}
+.lesson-example .ex-la { font-size: 1.08rem; }
+.lesson-example .ex-en { margin-top: 3px; }
+.lesson-example .ex-note { margin-top: 5px; font-size: 0.92rem; color: var(--ink-soft); }
+.ex-ref { color: var(--ink-soft); font-size: 0.8rem; margin-top: 3px; }
+mark { background: #f6e3b4; color: inherit; padding: 0 2px; border-radius: 3px; }
+.lesson-tip { background: #f5efe0; border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin: 14px 0; font-size: 0.95rem; }
+
+/* Paradigms and lists of phrases: they scroll inside their box rather than widen the page on a phone */
+.table-wrap { overflow-x: auto; margin: 12px 0; }
+table.lesson-table { border-collapse: collapse; min-width: 60%; }
+table.lesson-table caption { text-align: left; font-weight: 600; color: var(--maroon-dark); padding-bottom: 4px; }
+table.lesson-table th, table.lesson-table td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+table.lesson-table thead th { background: #f5efe0; color: var(--maroon-dark); font-family: Georgia, serif; }
+table.lesson-table tbody th { background: #faf6ee; font-weight: 600; }
+table.lesson-table td.latin { font-size: 1.02rem; }
+table.lesson-table tr.group-row th { background: #faf6ee; font-size: 0.85rem; color: var(--ink-soft); }
+@media (max-width: 560px) {
+  table.lesson-table { min-width: 100%; font-size: 0.88rem; }
+  table.lesson-table th, table.lesson-table td { padding: 5px 4px; }
+  table.lesson-table td.latin { font-size: 0.92rem; }
+}
+@media (max-width: 340px) {
+  table.lesson-table { font-size: 0.8rem; }
+  table.lesson-table th, table.lesson-table td { padding: 4px 3px; }
+  table.lesson-table td.latin { font-size: 0.84rem; }
+  #lessonCard { padding: 16px 10px; }
+}
+
+/* ---- Lesson practice ---- */
+.exercise [hidden] { display: none !important; }
+.exercise { border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 14px 0; background: #fff; }
+.exercise.right { border-color: #b9dcc5; }
+.exercise.wrong { border-color: #e8bcb6; }
+.exercise-q { font-weight: 600; margin-bottom: 8px; }
+.exercise-num { color: var(--maroon-dark); margin-right: 4px; }
+.exercise-la { font-size: 1.1rem; margin: 6px 0 4px; }
+.exercise .mc-options, .exercise .typed-answer, .exercise .match-list, .exercise .pick-sentence, .exercise .translation-box { margin-top: 12px; }
+.exercise .typed-answer { margin-left: 0; }
+.exercise .typed-macrons { justify-content: flex-start; }
+.exercise-why { margin-top: 12px; padding: 9px 12px; border-radius: 8px; background: #fff7ea; font-size: 0.95rem; }
+.exercise.right .exercise-why { background: #e5f4ea; }
+.exercise-actions { margin-top: 10px; }
+
+/* Click the words: each word is a button */
+.pick-sentence { line-height: 2.3; font-size: 1.1rem; }
+.pick-word {
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  padding: 1px 6px;
+  margin: 2px 0;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--border);
+}
+@media (hover: hover) { .pick-word:not(:disabled):hover { background: #fffdf6; border-color: var(--gold); } }
+.pick-word:active { background: #fffdf6; transform: none; }
+.pick-word.selected { background: #f6e3b4; border-color: var(--gold); }
+.pick-word:disabled { opacity: 1; cursor: default; }
+.pick-word.hit { background: #e5f4ea; border-color: var(--good); }
+.pick-word.wrong { background: #fbe8e6; border-color: var(--bad); }
+.pick-word.missed { border: 2px dashed var(--good); }
+.pick-gap { white-space: pre-wrap; }
+
+/* Matching: each item on the left has a choice of answers */
+.match-row { display: flex; align-items: center; gap: 6px 12px; flex-wrap: wrap; padding: 6px 0; border-bottom: 1px dashed var(--border); }
+.match-row:last-child { border-bottom: none; }
+.match-left { flex: 1 1 200px; }
+.match-row select { flex: 1 1 240px; max-width: 100%; min-width: 0; }
+.match-row.correct select { border-color: var(--good); background: #e5f4ea; }
+.match-row.incorrect select { border-color: var(--bad); background: #fbe8e6; }
+.match-fix { flex-basis: 100%; color: var(--good); font-size: 0.92rem; }
+
+.lesson-nav { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 26px; }

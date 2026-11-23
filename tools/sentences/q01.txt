@@ -1,0 +1,142 @@
+# Question 1: sacred doctrine. Format: see tools/build-sentences.mjs.
+
+= Ad primum sic proceditur.
+@ I q. 1 a. 1 arg. 1
+> One proceeds to the first article as follows.
+! Every article opens this way. Proceditur is an impersonal passive (literally "it is proceeded"), and primum means the first article.
+Ad | prep
+primum | adj | →- | prīmus
+sic | adv
+proceditur | v | 3 sg pres ind | impersonal-verb,passive-verb | prōcēdō
+. | punct
+
+= Secundo, utrum sit scientia.
+@ I q. 1 pr.
+> Second, whether it is a science.
+! The prologue lists each article as an indirect question with utrum, so its verb is subjunctive; the subject, sacred doctrine, is understood.
+Secundo | adv
+, | punct
+utrum | conj
+sit | v | 3 sg pres subj | indirect-question | sum
+scientia | n | nom sg f | subject-complement | scientia
+. | punct
+
+= Videtur quod sacra doctrina non sit scientia.
+@ I q. 1 a. 2 arg. 1
+> It seems that sacred doctrine is not a science.
+! Videtur quod, "it seems that", begins the first objection of every article; the verb of the quod clause is subjunctive.
+Videtur | v | 3 sg pres ind | impersonal-verb,head-verb | videō
+quod | conj
+sacra | adj | →doctrina | sacer
+doctrina | n | nom sg f | subject | doctrīna
+non | adv
+sit | v | 3 sg pres subj | quod-clause,linking-verb | sum
+scientia | n | nom sg f | subject-complement | scientia
+. | punct
+
+= Omnis enim scientia procedit ex principiis per se notis.
+@ I q. 1 a. 2 arg. 1
+> For every science proceeds from principles known through themselves.
+! Per se notum, "known through itself", means self-evident. Se takes the number of what it refers to, here the principles.
+Omnis | adj | →scientia | omnis
+enim | conj
+scientia | n | nom sg f | subject | scientia
+procedit | v | 3 sg pres ind | intransitive-verb | prōcēdō
+ex | prep
+principiis | n | abl pl n | object-of-prep | prīncipium
+per | prep
+se | pn | acc pl/sg | object-of-prep | sē
+notis | adj | →principiis | nōtus
+. | punct
+
+= Respondeo dicendum sacram doctrinam esse scientiam.
+@ I q. 1 a. 2 co.
+> I answer that it must be said that sacred doctrine is a science.
+! Dicendum (est is understood) is a passive periphrastic: "it must be said". Here it takes an accusative and infinitive; more often Thomas writes dicendum quod with a finite verb.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+sacram | adj | →doctrinam | sacer
+doctrinam | n | acc sg f | subject | doctrīna
+esse | vinf | pres act | indirect-statement | sum
+scientiam | n | acc sg f | subject-complement | scientia
+. | punct
+
+= Sed sciendum est quod duplex est scientiarum genus.
+@ I q. 1 a. 2 co.
+> But it must be understood that the class of sciences is twofold.
+! Sciendum est, like dicendum est, is a passive periphrastic: "it must be known".
+Sed | conj
+sciendum est | v | 3 sg pres ind | passive-periphrastic,head-verb | ~sciō
+quod | conj
+duplex | adj | →genus | duplex
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+scientiarum | n | gen pl f | partitive,possessive | scientia
+genus | n | nom sg n | subject | genus
+. | punct
+
+= Unde sacra doctrina maxime dicitur sapientia.
+@ I q. 1 a. 6 co.
+> Hence sacred doctrine is called wisdom most of all.
+Unde | adv
+sacra | adj | →doctrina | sacer
+doctrina | n | nom sg f | subject | doctrīna
+maxime | adv
+dicitur | v | 3 sg pres ind | passive-verb,linking-verb | dīcō
+sapientia | n | nom sg f | subject-complement | sapientia
+. | punct
+
+= Sed contra, illud est subiectum scientiae, de quo est sermo in scientia.
+@ I q. 1 a. 7 s. c.
+> But on the contrary, the subject of a science is that which the science discusses.
+! Literally "that is the subject of a science about which there is discourse in the science". Sed contra, "but on the contrary", introduces the authority or argument on the other side.
+Sed | conj
+contra | adv
+, | punct
+illud | pn | nom sg | subject | ille
+est | v | 3 sg pres ind | linking-verb | sum
+subiectum | n | nom sg n | subject-complement | subiectum
+scientiae | n | gen sg f | possessive,objective-genitive | scientia
+, | punct
+de | prep
+quo | pn | abl sg | object-of-prep | quī
+est | v | 3 sg pres ind | intransitive-verb | sum
+sermo | n | nom sg m | subject | sermō
+in | prep
+scientia | n | abl sg f | object-of-prep | scientia
+. | punct
+
+= Respondeo dicendum quod Deus est subiectum huius scientiae.
+@ I q. 1 a. 7 co.
+> I answer that it must be said that God is the subject of this science.
+! Respondeo dicendum quod, "I answer that it must be said that", opens Thomas's own answer in every article; the verb of the quod clause is indicative here.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+subiectum | n | nom sg n | subject-complement | subiectum
+huius | adj | →scientiae | hic
+scientiae | n | gen sg f | possessive,objective-genitive | scientia
+. | punct
+
+= Cum enim gratia non tollat naturam, sed perficiat, oportet quod naturalis ratio subserviat fidei.
+@ I q. 1 a. 8 ad 2
+> For since grace does not take away nature but perfects it, natural reason must serve faith.
+! A famous principle: grace does not destroy nature but perfects it. Oportet quod with the subjunctive is the Summa's usual "it is necessary that".
+Cum | conj
+enim | conj
+gratia | n | nom sg f | subject | grātia
+non | adv
+tollat | v | 3 sg pres subj | causal-clause,cum-clause | tollō
+naturam | n | acc sg f | direct-object | nātūra
+, | punct
+sed | conj
+perficiat | v | 3 sg pres subj | causal-clause,cum-clause | perficiō
+, | punct
+oportet | v | 3 sg pres ind | impersonal-verb,head-verb | oportet
+quod | conj
+naturalis | adj | →ratio | nātūrālis
+ratio | n | nom sg f | subject | ratiō
+subserviat | v | 3 sg pres subj | quod-clause | ~subserviō
+fidei | n | dat sg f | indirect-object | fidēs
+. | punct

@@ -1,0 +1,119 @@
+# Question 9: the immutability of God.
+
+= Primo, utrum Deus sit omnino immutabilis.
+@ I q. 9 pr.
+> First, whether God is altogether unchangeable.
+Primo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+omnino | adv
+immutabilis | adj | →Deus | immūtābilis
+. | punct
+
+= Quidquid enim movet seipsum, est aliquo modo mutabile.
+@ I q. 9 a. 1 arg. 1
+> For whatever moves itself is in some way changeable.
+! Seipsum is sē with -ipsum added for emphasis: "itself".
+Quidquid | pn | nom sg | subject | quisquis
+enim | conj
+movet | v | 3 sg pres ind | transitive-verb | moveō
+seipsum | pn | acc sg | direct-object | sē
+, | punct
+est | v | 3 sg pres ind | linking-verb | sum
+aliquo | adj | →modo | aliquis
+modo | n | abl sg m | abl-manner | modus
+mutabile | adj | →- | mūtābilis
+. | punct
+
+= Respondeo dicendum quod ex praemissis ostenditur Deum esse omnino immutabilem.
+@ I q. 9 a. 1 co.
+> I answer that it must be said that from what was said before it is shown that God is altogether unchangeable.
+! Ex praemissis, "from the things set out before"; ostenditur is impersonal, "it is shown", with an accusative and infinitive.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+ex | prep
+praemissis | n | abl pl n | object-of-prep | ~praemittō
+ostenditur | v | 3 sg pres ind | quod-clause,impersonal-verb,passive-verb,head-verb | ostendō
+Deum | n | acc sg m | subject | Deus
+esse | vinf | pres act | indirect-statement | sum
+omnino | adv
+immutabilem | adj | →Deum | immūtābilis
+. | punct
+
+= Omne autem quod quocumque modo mutatur, est aliquo modo in potentia.
+@ I q. 9 a. 1 co.
+> But everything that is changed in any way is in some way in potency.
+Omne | pn | nom sg | subject | omnis
+autem | conj
+quod | pn | nom sg | subject | quī
+quocumque | adj | →modo | quīcumque
+modo | n | abl sg m | abl-manner | modus
+mutatur | v | 3 sg pres ind | passive-verb | mūtō
+, | punct
+est | v | 3 sg pres ind | intransitive-verb,linking-verb | sum
+aliquo | adj | →modo#2 | aliquis
+modo | n | abl sg m | abl-manner | modus
+in | prep
+potentia | n | abl sg f | object-of-prep | potentia
+. | punct
+
+= Ex quo patet quod impossibile est Deum aliquo modo mutari.
+@ I q. 9 a. 1 co.
+> From this it is clear that it is impossible for God to be changed in any way.
+! Ex quo, "from which", links back to the previous sentence. Deum aliquo modo mutari is the subject of impossibile est.
+Ex | prep
+quo | pn | abl sg | object-of-prep | quī
+patet | v | 3 sg pres ind | impersonal-verb,head-verb | pateō
+quod | conj
+impossibile | adj | →- | impossibilis
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+Deum | n | acc sg m | subject | Deus
+aliquo | adj | →modo | aliquis
+modo | n | abl sg m | abl-manner | modus
+mutari | vinf | pres pass | subject-infinitive | mūtō
+. | punct
+
+= Unde manifestum est quod Deus moveri non potest.
+@ I q. 9 a. 1 co.
+> Hence it is clear that God cannot be moved.
+Unde | adv
+manifestum | adj | →- | manifēstus
+est | v | 3 sg pres ind | impersonal-verb,linking-verb,head-verb | sum
+quod | conj
+Deus | n | nom sg m | subject | Deus
+moveri | vinf | pres pass | complementary-infinitive | moveō
+non | adv
+potest | v | 3 sg pres ind | quod-clause,main-verb-complementary-infinitive | possum
+. | punct
+
+= Ad tertium dicendum quod huiusmodi dicuntur de Deo in Scripturis metaphorice.
+@ I q. 9 a. 1 ad 3
+> To the third, it must be said that such things are said of God in the Scriptures metaphorically.
+! Huiusmodi, "of this kind", never changes its form; here it means "such things".
+Ad | prep
+tertium | adj | →- | tertius
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+huiusmodi | pn | nom pl | subject | huiusmodi
+dicuntur | v | 3 pl pres ind | quod-clause,passive-verb | dīcō
+de | prep
+Deo | n | abl sg m | object-of-prep | Deus
+in | prep
+Scripturis | n | abl pl f | object-of-prep | scrīptūra
+metaphorice | adv
+. | punct
+
+= Sed tamen remanet in eis duplex mutabilitas.
+@ I q. 9 a. 2 co.
+> But nevertheless a twofold changeableness remains in them.
+Sed | conj
+tamen | adv
+remanet | v | 3 sg pres ind | intransitive-verb | remaneō
+in | prep
+eis | pn | abl pl | object-of-prep | is
+duplex | adj | →mutabilitas | duplex
+mutabilitas | n | nom sg f | subject | mūtābilitās
+. | punct

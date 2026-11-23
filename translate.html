@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Translation &amp; Analysis — Summa Latin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1><a href="index.html">Summa Latin</a></h1>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="flashcards.html">Vocabulary</a>
+    <a href="grammar.html">Grammar Charts</a>
+    <a href="translate.html" class="active">Translation</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card" id="listCard">
+    <h2>Sentence Analysis</h2>
+    <p>Pick a sentence from the Summa. Above nouns and pronouns, set case / number / gender; above verbs, set person / number / tense / mood; above infinitives, set tense / voice. Below each word, choose how it's used in the sentence — for a subjunctive verb, why it is subjunctive; for adjectives and participles, which noun they agree with; and for relative pronouns, the noun they refer to.</p>
+    <div id="chapterPicker" class="chapter-picker"></div>
+    <div id="sentenceList" class="sentence-list"></div>
+  </div>
+
+  <div id="analysisCard" class="card" style="display:none;">
+    <button class="secondary" id="backBtn">&larr; Back to sentence list</button>
+    <div id="analysisArea"></div>
+  </div>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script type="module" src="js/translate.js"></script>
+</body>
+</html>

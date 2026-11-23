@@ -1,0 +1,165 @@
+Adv|magis||||more||
+A|māgnus, māgna, māgnum|||1st|great, large||
+N|māgnitūdō|māgnitūdinis|f.|3rd|size, greatness, magnitude||
+A|malus, mala, malum|||1st|bad, evil|malum: evil|
+V|maneō|manēre, mānsī, mānsum||2nd|to remain, stay||
+Adv|manifēstē||||clearly, evidently||
+N|manifēstātiō|manifēstātiōnis|f.|3rd|manifestation, making clear||
+A|manifēstus, manifēsta, manifēstum|||1st|clear, evident||
+N|manus|manūs|f.|4th|hand||
+N|māteria|māteriae|f.|1st|matter||
+A|māteriālis, māteriāle|||3rd|material||
+A|mathēmaticus, mathēmatica, mathēmaticum|||1st|mathematical||
+Adv|maximē||||most, especially||
+A|medius, media, medium|||1st|middle, intermediate|medium: means, middle term|
+N|membrum|membrī|n.|2nd|member, limb||
+N|mēnsūra|mēnsūrae|f.|1st|measure||
+V|mēnsūrō|mēnsūrāre, mēnsūrāvī, mēnsūrātum||1st|to measure||
+N|meritum|meritī|n.|2nd|merit||
+N|metaphora|metaphorae|f.|1st|metaphor||
+Adv|metaphoricē||||metaphorically||
+A|metaphoricus, metaphorica, metaphoricum|||1st|metaphorical||
+A|mīlitāris, mīlitāre|||3rd|military||
+A|mōbilis, mōbile|||3rd|movable, mobile||
+N|modus|modī|m.|2nd|way, manner, mode; measure|per modum: by way of|
+A|mōrālis, mōrāle|||3rd|moral||
+N|mōs|mōris|m.|3rd|custom; (pl.) morals, character||
+N|mōtus|mōtūs|m.|4th|motion, movement, change||
+V|moveō|movēre, mōvī, mōtum||2nd|to move||
+N|multiplicitās|multiplicitātis|f.|3rd|multiplicity||
+Adv|multipliciter||||in many ways||
+N|multitūdō|multitūdinis|f.|3rd|multitude, plurality||
+A|multus, multa, multum|||1st|much, many||
+N|mundus|mundī|m.|2nd|world||
+N|mūsica|mūsicae|f.|1st|music||
+A|mūtābilis, mūtābile|||3rd|changeable, mutable||
+N|mūtābilitās|mūtābilitātis|f.|3rd|changeableness, mutability||
+V|mūtō|mūtāre, mūtāvī, mūtātum||1st|to change||
+A|mūtuus, mūtua, mūtuum|||1st|mutual||
+C|nam||||for||
+V|nārrō|nārrāre, nārrāvī, nārrātum||1st|to tell, narrate||
+N|nātūra|nātūrae|f.|1st|nature||
+A|nātūrālis, nātūrāle|||3rd|natural|nātūrālis (as a noun): natural philosopher|
+Adv|nātūrāliter||||naturally, by nature||
+A|necessārius, necessāria, necessārium|||1st|necessary||
+A|necesse||||necessary|necesse est: it is necessary|
+N|necessitās|necessitātis|f.|3rd|necessity||
+N|negātiō|negātiōnis|f.|3rd|negation, denial||
+V|negō|negāre, negāvī, negātum||1st|to deny||
+Pr|nēmō||||no one||forms:nemo nemini neminem
+C|neque, nec||||and not, nor|neque ... neque: neither ... nor|
+Pr|nihil||||nothing|ex nihilō: out of nothing|forms:nihil nihilum nihili nihilo
+Adv|nihilōminus||||nevertheless||
+C|nisi||||unless, except, if not||
+A|nōbilis, nōbile|||3rd|noble||
+N|nōmen|nōminis|n.|3rd|name; noun||
+V|nōminō|nōmināre, nōmināvī, nōminātum||1st|to name, call||
+Adv|nōn||||not||
+Pr|nōs||||we||forms:nos nostri nostrum nobis
+A|noster, nostra, nostrum|||1st|our||
+A|nōtus, nōta, nōtum|||1st|known|per sē nōtum: self-evident|
+A|novus, nova, novum|||1st|new||
+A|nūllus, nūlla, nūllum|||1st|no, none||
+V|numerō|numerāre, numerāvī, numerātum||1st|to count, number||
+N|numerus|numerī|m.|2nd|number||
+Adv|nunc||||now|the now: the present instant|
+Adv|nunquam||||never|classical numquam|
+N|obiectiō|obiectiōnis|f.|3rd|objection||
+N|obiectum|obiectī|n.|2nd|object||
+A|octāvus, octāva, octāvum|||1st|eighth|octāvō: eighthly|
+Num|octōgintā||||eighty||
+N|oculus|oculī|m.|2nd|eye||
+N|officium|officiī|n.|2nd|duty, office||
+A|omnis, omne|||3rd|all, every||
+Adv|omnīnō||||altogether, completely; at all||
+N|operātiō|operātiōnis|f.|3rd|operation, activity||
+V|operor|operārī, operātus sum||1st|to work, operate, act||dep
+N|opīniō|opīniōnis|f.|3rd|opinion||
+V|oportet|oportēre, oportuit||2nd|it is necessary, one must|takes an infinitive with a subject accusative|impers;forms:oportet oportebat oportebit oporteret oportuit oportuerit oportuisset oportere
+V|oppōnō|oppōnere, opposuī, oppositum||3rd|to oppose, set against|opposita: opposites|
+N|opus|operis|n.|3rd|work, deed||
+V|ordinō|ordināre, ordināvī, ordinātum||1st|to order, arrange, direct||
+N|ordō|ordinis|m.|3rd|order||
+N|os|ossis|n.|3rd|bone||
+V|ostendō|ostendere, ostendī, ostēnsum||3rd|to show, reveal||
+A|parabolicus, parabolica, parabolicum|||1st|parabolic, in the manner of a parable||
+N|pars|partis|f.|3rd|part|ex parte: on the part of|
+N|participātiō|participātiōnis|f.|3rd|participation||
+V|participō|participāre, participāvī, participātum||1st|to participate in, share in||
+A|parvus, parva, parvum|||1st|small||
+N|passiō|passiōnis|f.|3rd|passion, being acted upon; property||
+N|pater|patris|m.|3rd|father||
+V|pateō|patēre, patuī, ——||2nd|to be open, be evident|patet: it is clear|
+Adv|penitus||||entirely, completely||
+Prep|per + accusative||||through, by means of|per sē: through itself, essentially|
+Adv|perfectē||||perfectly||
+N|perfectiō|perfectiōnis|f.|3rd|perfection||
+A|perfectus, perfecta, perfectum|||1st|perfect, complete||
+V|perficiō|perficere, perfēcī, perfectum||3rd (-iō)|to perfect, complete||
+V|permaneō|permanēre, permānsī, permānsum||2nd|to remain, endure||
+V|permittō|permittere, permīsī, permissum||3rd|to permit, allow||
+N|persōna|persōnae|f.|1st|person||
+V|pertineō|pertinēre, pertinuī, ——||2nd|to pertain, belong (to)||
+V|pertingō|pertingere, ——, ——||3rd|to reach, extend to||
+V|perveniō|pervenīre, pervēnī, perventum||4th|to arrive, reach||
+N|philosophia|philosophiae|f.|1st|philosophy||
+A|philosophicus, philosophica, philosophicum|||1st|philosophical||
+N|philosophus|philosophī|m.|2nd|philosopher; the Philosopher (Aristotle)||
+V|placeō|placēre, placuī, placitum||2nd|to please||
+A|plūrēs, plūra|||3rd|several, more, many||forms:plures plura plurium pluribus
+N|pondus|ponderis|n.|3rd|weight||
+V|pōnō|pōnere, posuī, positum||3rd|to put, place; posit, hold|positō quod: supposing that|
+N|possessiō|possessiōnis|f.|3rd|possession||
+V|possum|posse, potuī, ——||irregular|to be able, can||
+Prep|post + accusative||||after||
+Adv|posteā||||afterwards||
+A|posterior, posterius|||comparative|later, posterior|posterius (adv.): afterward|
+C|postquam||||after||
+N|potentia|potentiae|f.|1st|potency, potentiality; power|in potentiā: potentially|
+N|potestās|potestātis|f.|3rd|power, authority||
+Adv|potius||||rather||
+A|practicus, practica, practicum|||1st|practical||
+V|praebeō|praebēre, praebuī, praebitum||2nd|to offer, supply, provide||
+Adv|praecipuē||||especially||
+N|praedicāmentum|praedicāmentī|n.|2nd|category, predicament||
+N|praedicātum|praedicātī|n.|2nd|predicate||
+V|praedicō|praedicāre, praedicāvī, praedicātum||1st|to predicate, assert; preach||
+A|praedictus, praedicta, praedictum|||1st|aforesaid, mentioned above||
+V|praeexistō|praeexistere, ——, ——||3rd|to pre-exist, exist beforehand||
+V|praefigō|praefigere, praefīxī, praefīxum||3rd|to fix beforehand, set (as a limit)||
+V|praemittō|praemittere, praemīsī, praemissum||3rd|to send ahead; state beforehand|ex praemissīs: from what has been said|
+A|praesēns, praesentis|||3rd|present||
+N|praesentia|praesentiae|f.|1st|presence||
+V|praesuppōnō|praesuppōnere, praesupposuī, praesuppositum||3rd|to presuppose||
+Prep|praeter + accusative||||besides, beyond, apart from||
+Adv|praetereā||||furthermore, besides|Praetereā introduces the next objection|
+A|praeteritus, praeterita, praeteritum|||1st|past|praeteritum: the past|
+A|prīmus, prīma, prīmum|||1st|first|prīmō: first(ly)|
+Adv|prīncipāliter||||principally, chiefly||
+N|prīncipium|prīncipiī|n.|2nd|principle, beginning, source||
+A|prior, prius|||comparative|prior, earlier, first|prius (adv.): before, first|
+N|prīvātiō|prīvātiōnis|f.|3rd|privation, lack||
+V|prīvō|prīvāre, prīvāvī, prīvātum||1st|to deprive||
+Prep|prō + ablative||||for, on behalf of; instead of||
+V|probō|probāre, probāvī, probātum||1st|to prove, test; approve||
+V|prōcēdō|prōcēdere, prōcessī, prōcessum||3rd|to proceed, go forward|sīc prōcēditur: one proceeds thus|
+N|prōcessus|prōcessūs|m.|4th|process, procession||
+V|prōdūcō|prōdūcere, prōdūxī, prōductum||3rd|to produce, bring forth||
+N|profunditās|profunditātis|f.|3rd|depth||
+V|prohibeō|prohibēre, prohibuī, prohibitum||2nd|to prevent, prohibit|nihil prohibet: nothing prevents|
+N|prōpositiō|prōpositiōnis|f.|3rd|proposition||
+N|prōpositum|prōpositī|n.|2nd|purpose; the point at hand|ad prōpositum: to the point|
+V|prōpōnō|prōpōnere, prōposuī, prōpositum||3rd|to propose, set forth||
+A|prōportiōnātus, prōportiōnāta, prōportiōnātum|||1st|proportionate||
+Adv|propriē||||properly, strictly speaking||
+A|proprius, propria, proprium|||1st|proper, one's own, characteristic|proprium: a property|
+Prep|propter + accusative||||because of, on account of||
+C|prout||||according as, just as||
+N|prōvidentia|prōvidentiae|f.|1st|providence||
+N|psalmus|psalmī|m.|2nd|psalm||
+A|pulcher, pulchra, pulchrum|||1st|beautiful|pulchrum: the beautiful|
+N|pūnctus|pūnctī|m.|2nd|point||
+Adv|puta||||for example, suppose||
+N|periodus|periodī|f.|2nd|period, cycle||
+A|possibilis, possibile|||3rd|possible||
+V|praeaccipiō|praeaccipere, praeaccēpī, praeacceptum||3rd (-iō)|to receive beforehand||

@@ -1,0 +1,133 @@
+# Question 10: the eternity of God.
+
+= Primo, quid sit aeternitas.
+@ I q. 10 pr.
+> First, what eternity is.
+! An indirect question with quid, "what", so the verb is subjunctive.
+Primo | adv
+, | punct
+quid | pn | nom sg | subject-complement | quis
+sit | v | 3 sg pres subj | indirect-question | sum
+aeternitas | n | nom sg f | subject | aeternitās
+. | punct
+
+= Quarto, utrum aeternitas differat a tempore.
+@ I q. 10 pr.
+> Fourth, whether eternity differs from time.
+Quarto | adv
+, | punct
+utrum | conj
+aeternitas | n | nom sg f | subject | aeternitās
+differat | v | 3 sg pres subj | indirect-question | differō
+a | prep
+tempore | n | abl sg n | object-of-prep,abl-separation | tempus
+. | punct
+
+= Aeternitas est interminabilis vitae tota simul et perfecta possessio.
+@ I q. 10 a. 1 arg. 1
+> Eternity is the whole, simultaneous, and perfect possession of endless life.
+! Boethius's definition (The Consolation of Philosophy, Book V), which Thomas quotes and defends in this article.
+Aeternitas | n | nom sg f | subject | aeternitās
+est | v | 3 sg pres ind | linking-verb | sum
+interminabilis | adj | →vitae | interminābilis
+vitae | n | gen sg f | objective-genitive,possessive | vīta
+tota | adj | →possessio | tōtus
+simul | adv
+et | conj
+perfecta | adj | →possessio | perfectus
+possessio | n | nom sg f | subject-complement | possessiō
+. | punct
+
+= Duratio autem magis respicit esse quam vitam.
+@ I q. 10 a. 1 arg. 2
+> But duration concerns being more than life.
+! Esse is a noun here, "being", the object of respicit like vitam.
+Duratio | n | nom sg f | subject | dūrātiō
+autem | conj
+magis | adv
+respicit | v | 3 sg pres ind | transitive-verb | respiciō
+esse | n | acc sg n | direct-object | ~esse
+quam | adv
+vitam | n | acc sg f | direct-object | vīta
+. | punct
+
+= Ad primum ergo dicendum quod nunc stans dicitur facere aeternitatem, secundum nostram apprehensionem.
+@ I q. 10 a. 2 ad 1
+> To the first, therefore, it must be said that the "standing now" is said to make eternity, according to our way of grasping it.
+! Nunc stans, "the standing now", is Boethius's image for eternity, as against the nunc fluens, "the flowing now", of time; nunc is used as a noun.
+Ad | prep
+primum | adj | →- | prīmus
+ergo | conj
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+nunc | n | nom sg n | subject | ~nunc
+stans | adj | →nunc | stō
+dicitur | v | 3 sg pres ind | quod-clause,passive-verb,main-verb-complementary-infinitive | dīcō
+facere | vinf | pres act | nominative-infinitive,complementary-infinitive | faciō
+aeternitatem | n | acc sg f | direct-object | aeternitās
+, | punct
+secundum | prep
+nostram | adj | →apprehensionem | noster
+apprehensionem | n | acc sg f | object-of-prep | apprehēnsiō
+. | punct
+
+= Unde, cum Deus sit maxime immutabilis, sibi maxime competit esse aeternum.
+@ I q. 10 a. 2 co.
+> Hence, since God is supremely unchangeable, being eternal belongs to him supremely.
+! Cum with the subjunctive, "since"; esse aeternum is the subject of competit.
+Unde | adv
+, | punct
+cum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | causal-clause,cum-clause | sum
+maxime | adv
+immutabilis | adj | →Deus | immūtābilis
+, | punct
+sibi | pn | dat sg | indirect-object,dat-reference | sē
+maxime | adv
+competit | v | 3 sg pres ind | intransitive-verb | competō
+esse | vinf | pres act | subject-infinitive | sum
+aeternum | adj | →- | aeternus
+. | punct
+
+= Ad tertium dicendum quod aeternitas non est aliud quam ipse Deus.
+@ I q. 10 a. 2 ad 3
+> To the third, it must be said that eternity is nothing other than God himself.
+Ad | prep
+tertium | adj | →- | tertius
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+aeternitas | n | nom sg f | subject | aeternitās
+non | adv
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+aliud | pn | nom sg | subject-complement | alius
+quam | adv
+ipse | adj | →Deus | ipse
+Deus | n | nom sg m | subject,subject-complement | Deus
+. | punct
+
+= Respondeo dicendum quod aeternitas vere et proprie in solo Deo est.
+@ I q. 10 a. 3 co.
+> I answer that it must be said that eternity is truly and properly in God alone.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+aeternitas | n | nom sg f | subject | aeternitās
+vere | adv
+et | conj
+proprie | adv
+in | prep
+solo | adj | →Deo | sōlus
+Deo | n | abl sg m | object-of-prep | Deus
+est | v | 3 sg pres ind | quod-clause,intransitive-verb | sum
+. | punct
+
+= Solus ergo Deus est aeternus.
+@ I q. 10 a. 3 s. c.
+> Therefore God alone is eternal.
+Solus | adj | →Deus | sōlus
+ergo | conj
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | linking-verb | sum
+aeternus | adj | →Deus | aeternus
+. | punct

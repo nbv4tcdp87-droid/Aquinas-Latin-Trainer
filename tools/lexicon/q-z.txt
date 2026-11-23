@@ -1,0 +1,216 @@
+V|quaerō|quaerere, quaesīvī, quaesītum||3rd|to seek, ask|quaeritur: it is asked|
+N|quaestiō|quaestiōnis|f.|3rd|question||
+A|quālis, quāle|||3rd|of what sort, such as||
+N|quālitās|quālitātis|f.|3rd|quality||
+Adv|quam||||than; how||
+C|quamvīs||||although||
+Adv|quandiū||||as long as|classical quamdiū|
+Adv|quandō||||when||
+Adv|quandōque||||sometimes, at some time||
+N|quantitās|quantitātis|f.|3rd|quantity||
+A|quantus, quanta, quantum|||1st|how great, as great as|quantum ad: as regards|
+A|quārtus, quārta, quārtum|||1st|fourth|quārtō: fourthly|
+C|quasi||||as if, as it were; almost||
+Num|quātuor||||four|classical quattuor|
+Pr|quī, quae, quod||||who, which, that||
+C|quia||||because, since; that||
+Pr|quīcumque, quaecumque, quodcumque||||whoever, whatever||forms:quicumque quaecumque quodcumque cuiuscumque cuicumque quemcumque quamcumque quocumque quacumque quorumcumque quarumcumque quibuscumque quoscumque quascumque
+Pr|quīdam, quaedam, quoddam||||a certain (one), some||forms:quidam quaedam quoddam quiddam cuiusdam cuidam quendam quandam quodam quadam quorundam quarundam quibusdam quosdam quasdam
+Adv|quidem||||indeed, certainly|quidem ... autem: on the one hand ... on the other|
+Pr|quīlibet, quaelibet, quodlibet||||any(one) at all, whatever you please||forms:quilibet quaelibet quodlibet quidlibet cuiuslibet cuilibet quemlibet quamlibet quolibet qualibet quorumlibet quarumlibet quibuslibet quoslibet quaslibet
+A|quīntus, quīnta, quīntum|||1st|fifth|quīntō: fifthly|
+Num|quīnque||||five||
+Pr|quis, quid||||who? what?|quid est: what it is|
+Pr|quisquis, quidquid||||whoever, whatever||forms:quisquis quidquid quicquid
+Prep|quoad + accusative||||as to, as regards||
+C|quod||||that, because; (after verbs of saying) that|dīcendum quod: it must be said that|
+Adv|quōdammodo||||in a certain way, in some manner||
+Adv|quōmodo||||how, in what way||
+N|radius|radiī|m.|2nd|ray, beam||
+N|ratiō|ratiōnis|f.|3rd|reason; nature, aspect, notion; argument||
+A|ratiōnālis, ratiōnāle|||3rd|rational||
+V|recēdō|recēdere, recessī, recessum||3rd|to withdraw, depart, recede||
+V|recipiō|recipere, recēpī, receptum||3rd (-iō)|to receive||
+V|redūcō|redūcere, redūxī, reductum||3rd|to lead back, reduce, trace back||
+N|reductiō|reductiōnis|f.|3rd|reduction, leading back||
+V|referō|referre, rettulī, relātum||irregular|to refer, relate, bring back||
+V|rēgnō|rēgnāre, rēgnāvī, rēgnātum||1st|to reign||
+N|relātiō|relātiōnis|f.|3rd|relation||
+Adv|relātīvē||||relatively||
+V|relinquō|relinquere, relīquī, relictum||3rd|to leave, leave behind|relinquitur: it remains|
+V|remaneō|remanēre, remānsī, ——||2nd|to remain||
+Adv|remōtē||||remotely||
+V|removeō|removēre, remōvī, remōtum||2nd|to remove||
+V|repleō|replēre, replēvī, replētum||2nd|to fill, fill up||
+V|requīrō|requīrere, requīsīvī, requīsītum||3rd|to require, seek||
+N|rēs|reī|f.|5th|thing, reality, matter||
+N|respectus|respectūs|m.|4th|respect, regard, relation|respectū: with respect to|
+V|respiciō|respicere, respexī, respectum||3rd (-iō)|to look at, regard, concern||
+V|respondeō|respondēre, respondī, respōnsum||2nd|to answer, respond|respondeō dīcendum quod: I answer that it must be said that|
+N|respōnsiō|respōnsiōnis|f.|3rd|response, reply||
+V|restō|restāre, restitī, ——||1st|to remain, be left||
+A|revēlābilis, revēlābile|||3rd|revealable||
+N|revēlātiō|revēlātiōnis|f.|3rd|revelation||
+V|revēlō|revēlāre, revēlāvī, revēlātum||1st|to reveal||
+A|rīsibilis, rīsibile|||3rd|able to laugh, risible||
+A|sacer, sacra, sacrum|||1st|sacred, holy||
+N|saeculum|saeculī|n.|2nd|age, generation; world|in saecula: forever|
+Adv|saltem||||at least||
+N|salūs|salūtis|f.|3rd|salvation, health||
+A|sānctus, sāncta, sānctum|||1st|holy; saint||
+A|sapiēns, sapientis|||3rd|wise; (as a noun) wise man||
+N|sapientia|sapientiae|f.|1st|wisdom||
+A|scībilis, scībile|||3rd|knowable||
+N|scientia|scientiae|f.|1st|knowledge, science||
+Adv|scīlicet||||namely, that is to say||
+V|sciō|scīre, scīvī, scītum||4th|to know|sciendum est: it must be known|
+V|scrībō|scrībere, scrīpsī, scrīptum||3rd|to write||
+N|scrīptūra|scrīptūrae|f.|1st|scripture, writing||
+Pr|sē||||himself, herself, itself, themselves|reflexive|forms:se sui sibi secum seipsum seipso seipsis seipsa seipsam sibiipsi
+A|secundus, secunda, secundum|||1st|second|secundō: secondly|
+Prep|secundum + accusative||||according to, in accordance with|secundum quod: insofar as|
+C|sed||||but||
+N|sēmen|sēminis|n.|3rd|seed||
+Adv|semper||||always||
+N|sēnsus|sēnsūs|m.|4th|sense; meaning||
+V|sentiō|sentīre, sēnsī, sēnsum||4th|to feel, perceive||
+V|sēparō|sēparāre, sēparāvī, sēparātum||1st|to separate|sēparātus: separate|
+A|septimus, septima, septimum|||1st|seventh|septimō: seventhly|
+V|sequor|sequī, secūtus sum||3rd|to follow|sequitur: it follows|dep
+N|sermō|sermōnis|m.|3rd|speech, discourse, word||
+C|seu||||or||
+Num|sex||||six||
+A|sextus, sexta, sextum|||1st|sixth|sextō: sixthly|
+C|sī||||if||
+Adv|sīc||||thus, so, in this way||
+Adv|sīcut||||just as, as||
+N|significātiō|significātiōnis|f.|3rd|signification, meaning||
+V|significō|significāre, significāvī, significātum||1st|to signify, mean||
+N|signum|signī|n.|2nd|sign||
+A|similis, simile|||3rd|like, similar||
+Adv|similiter||||similarly||
+N|similitūdō|similitūdinis|f.|3rd|likeness, similarity||
+A|simplex, simplicis|||3rd|simple, not composite||
+N|simplicitās|simplicitātis|f.|3rd|simplicity||
+Adv|simpliciter||||simply, absolutely, without qualification||
+Adv|simul||||at the same time, together|tōta simul: all at once|
+Prep|sine + ablative||||without||
+A|singulāris, singulāre|||3rd|singular, individual|singulāria: particular things|
+N|situs|sitūs|m.|4th|position, site||
+N|sōl|sōlis|m.|3rd|sun||not:solum
+N|solūtiō|solūtiōnis|f.|3rd|solution||
+A|sōlus, sōla, sōlum|||1st|alone, only|sōlum (adv.): only|
+Adv|speciāliter||||specially, in particular||
+N|speciēs|speciēī|f.|5th|species; appearance, form||
+A|speculātīvus, speculātīva, speculātīvum|||1st|speculative, theoretical||
+A|spīrituālis, spīrituāle|||3rd|spiritual||
+N|spīritus|spīritūs|m.|4th|spirit, breath||
+Adv|statim||||at once, immediately||
+V|stō|stāre, stetī, statum||1st|to stand, remain||
+N|studium|studiī|n.|2nd|study, zeal||
+Prep|sub + ablative||||under|with the accusative: under (motion)|
+V|subdō|subdere, subdidī, subditum||3rd|to place under, subject; add (after)|subditur: it is added|
+N|subiectum|subiectī|n.|2nd|subject||
+V|subsistō|subsistere, substitī, ——||3rd|to subsist, exist by itself||
+N|subsistentia|subsistentiae|f.|1st|subsistence||
+N|substantia|substantiae|f.|1st|substance||
+A|substantiālis, substantiāle|||3rd|substantial||
+V|subtrahō|subtrahere, subtrāxī, subtractum||3rd|to take away, withdraw||
+N|successiō|successiōnis|f.|3rd|succession||
+Adv|successīvē||||successively||
+A|successīvus, successīva, successīvum|||1st|successive||
+V|sufficiō|sufficere, suffēcī, suffectum||3rd (-iō)|to suffice, be enough||
+Adv|sufficienter||||sufficiently||
+V|sum|esse, fuī, futūrus||irregular|to be, exist|esse (as a noun): being, existence|forms:esto estote essendi
+V|sūmō|sūmere, sūmpsī, sūmptum||3rd|to take, take up|sūmitur: is taken|
+Adv|summē||||supremely, in the highest degree||
+A|summus, summa, summum|||1st|highest, supreme||
+Prep|super + accusative||||over, above; upon, about||
+V|superaddō|superaddere, superaddidī, superadditum||3rd|to add on, add over and above||
+N|superficiēs|superficiēī|f.|5th|surface||
+A|superfluus, superflua, superfluum|||1st|superfluous||
+A|superior, superius|||comparative|higher, superior||
+V|suppōnō|suppōnere, supposuī, suppositum||3rd|to suppose, place under||
+N|suppositum|suppositī|n.|2nd|suppositum, individual subject||
+Prep|suprā + accusative||||above, beyond|ut suprā: as (said) above|
+V|suscipiō|suscipere, suscēpī, susceptum||3rd (-iō)|to take up, receive||
+A|suus, sua, suum|||1st|his, her, its, their own||
+A|tālis, tāle|||3rd|such||
+Adv|tamen||||nevertheless, yet||
+V|tangō|tangere, tetigī, tāctum||3rd|to touch||
+Adv|tanquam||||as, as if, just as|classical tamquam|
+A|tantus, tanta, tantum|||1st|so great|tantum (adv.): only|
+N|tempus|temporis|n.|3rd|time||
+A|temporālis, temporāle|||3rd|temporal||
+V|tendō|tendere, tetendī, tentum||3rd|to tend, stretch, strive||
+V|teneō|tenēre, tenuī, tentum||2nd|to hold, keep||
+V|terminō|termināre, termināvī, terminātum||1st|to limit, bound, end||
+N|terminus|terminī|m.|2nd|end, limit, term||
+N|terra|terrae|f.|1st|earth, land||
+A|tertius, tertia, tertium|||1st|third|tertiō: thirdly|
+N|theologia|theologiae|f.|1st|theology||
+V|tollō|tollere, sustulī, sublātum||3rd|to take away, remove, destroy||
+N|tōtālitās|tōtālitātis|f.|3rd|totality, wholeness||
+Adv|tōtāliter||||totally, wholly||
+A|tōtus, tōta, tōtum|||1st|whole, all|tōtum: a whole|
+V|tractō|tractāre, tractāvī, tractātum||1st|to treat, handle, discuss||
+V|trādō|trādere, trādidī, trāditum||3rd|to hand down, teach, hand over||
+V|trānscendō|trānscendere, trānscendī, trānscēnsum||3rd|to transcend, surpass||
+V|trānseō|trānsīre, trānsiī, trānsitum||irregular|to pass over, pass away||
+A|trānsmūtābilis, trānsmūtābile|||3rd|changeable||
+N|trānsmūtātiō|trānsmūtātiōnis|f.|3rd|change, transmutation||
+Num|trēs, tria||||three||forms:tres tria trium tribus
+A|trīnus, trīna, trīnum|||1st|threefold||
+A|triplex, triplicis|||3rd|threefold, triple||
+Adv|tripliciter||||in three ways||
+Pr|tū||||you (singular)||forms:tu tui tibi te tecum
+Adv|tum||||then|tum ... tum: both ... and|
+Adv|tunc||||then, at that time||
+C|ubi||||where, when||
+Adv|ubīque||||everywhere||
+A|ultimus, ultima, ultimum|||1st|last, final, ultimate||
+Prep|ultrā + accusative||||beyond||
+Adv|unde||||whence, from where; hence||
+Adv|ūniformiter||||uniformly||
+N|ūniō|ūniōnis|f.|3rd|union||
+N|ūnitās|ūnitātis|f.|3rd|unity, oneness||
+A|ūniversālis, ūniversāle|||3rd|universal||
+Adv|ūniversāliter||||universally||
+N|ūniversum|ūniversī|n.|2nd|universe||
+A|ūnivocus, ūnivoca, ūnivocum|||1st|univocal (said in one sense)||
+Num|ūnus, ūna, ūnum||||one|ūnum: one, a unity|forms:unus una unum unius uni unam uno unae unorum unarum unis unos unas
+Pr|ūnusquisque, ūnaquaeque, ūnumquodque||||each one, every single one||forms:unusquisque unaquaeque unumquodque uniuscuiusque unicuique unumquemque unamquamque unoquoque unaquaque
+Adv|usque||||all the way, up to, until|usque ad: up to, as far as|
+C|ut||||as; so that, in order that (+ subjunctive)||
+Pr|uterque, utraque, utrumque||||each (of two), both||forms:uterque utraque utrumque utriusque utrique utrumque utramque utroque utraque
+A|ūtilis, ūtile|||3rd|useful||
+V|ūtor|ūtī, ūsus sum||3rd|to use (+ ablative)||dep
+Adv|utpote||||namely, inasmuch as||
+C|utrum||||whether|utrum ... an / vel: whether ... or|
+C|vel||||or|vel ... vel: either ... or|
+V|veniō|venīre, vēnī, ventum||4th|to come||
+N|verbum|verbī|n.|2nd|word; the Word||
+Adv|vērē||||truly||
+N|vēritās|vēritātis|f.|3rd|truth||
+C|vērō||||indeed, but, however|second word in its clause|
+A|vērus, vēra, vērum|||1st|true|vērum: the true|
+A|vetus, veteris|||3rd|old||
+N|via|viae|f.|1st|way, road|quīnque viīs: in five ways|
+V|videō|vidēre, vīdī, vīsum||2nd|to see; (pass.) to seem|vidētur: it seems|
+A|virtuōsus, virtuōsa, virtuōsum|||1st|virtuous||
+N|virtūs|virtūtis|f.|3rd|power, virtue, strength||
+N|vīs|vīs|f.|3rd|force, power||forms:vis vim vi vires virium viribus
+N|vīsiō|vīsiōnis|f.|3rd|vision, sight||
+N|vīsus|vīsūs|m.|4th|sight, vision||
+N|vīta|vītae|f.|1st|life||
+V|vīvō|vīvere, vīxī, vīctum||3rd|to live||
+A|vīvus, vīva, vīvum|||1st|living, alive||
+V|vocō|vocāre, vocāvī, vocātum||1st|to call||
+N|voluntās|voluntātis|f.|3rd|will||
+N|vōx|vōcis|f.|3rd|voice; word, term||
+N|quiēs|quiētis|f.|3rd|rest, repose||
+N|repraesentātiō|repraesentātiōnis|f.|3rd|representation||
+A|sēnsibilis, sēnsibile|||3rd|sensible, perceptible by the senses||
+C|sīve||||or; whether|sīve ... sīve: whether ... or|
+N|trānsmūtābilitās|trānsmūtābilitātis|f.|3rd|changeableness||
+N|veterātiō|veterātiōnis|f.|3rd|growing old, aging||

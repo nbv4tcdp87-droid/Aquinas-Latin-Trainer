@@ -1,0 +1,21 @@
+# Proper names and citation abbreviations: matched so the text is fully accounted for, but
+# never put in the vocabulary drills.
+N|Abraham||m.||Abraham||name;forms:abraham abrahae
+N|Ambrosius|Ambrosiī|m.|2nd|Ambrose||name
+N|Aristotelēs|Aristotelis|m.|3rd|Aristotle||name
+N|Augustīnus|Augustīnī|m.|2nd|Augustine||name
+N|Boētius|Boētiī|m.|2nd|Boethius||name
+N|Christus|Christī|m.|2nd|Christ||name
+N|Damascēnus|Damascēnī|m.|2nd|(John) Damascene||name
+N|Dionysius|Dionysiī|m.|2nd|Dionysius (the Areopagite)||name
+N|Gregorius|Gregoriī|m.|2nd|Gregory||name
+N|Hieronymus|Hieronymī|m.|2nd|Jerome||name
+N|Hilarius|Hilariī|m.|2nd|Hilary||name
+N|Iacob||m.||Jacob||name;forms:iacob
+N|Iōb||m.||Job||name;forms:iob
+N|Īsaac||m.||Isaac||name;forms:isaac
+N|Īsaiās|Īsaiae|m.|1st|Isaiah||name;forms:isaiae isaias
+N|Platō|Platōnis|m.|3rd|Plato||name
+A|Platōnicus, Platōnica, Platōnicum|||1st|Platonic; (m. pl.) the Platonists||name
+N|cite||||citation abbreviations||cite;forms:cap cael metaphys physic div nom ethic poster gen hebdomad hebr hier iac ioan ioann lib litt matt matth prov quaest rom sap eccli tim trin thessalon exod eccle cor coloss ephes philipp galat ier dan psal reg isa apoc deut lev ps
+N|Trīnitās|Trīnitātis|f.|3rd|the Trinity||name

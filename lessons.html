@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lessons — Summa Latin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1><a href="index.html">Summa Latin</a></h1>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="lessons.html" class="active">Lessons</a>
+    <a href="flashcards.html">Vocabulary</a>
+    <a href="grammar.html">Grammar Charts</a>
+    <a href="translate.html">Translation</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card" id="lessonListCard">
+    <h2>Lessons</h2>
+    <p>Short lessons on the grammar you need to read the <em>Summa</em>. They assume you know the noun declensions, adjective agreement, the indicative of verbs, and the rest of <em>Latin for the New Millennium</em>, Chapters 1–10. Each lesson teaches something the <em>Summa</em> needs beyond that, with examples from Questions 1–10, and ends with practice. The lessons build on each other, so take them in order the first time.</p>
+    <div id="lessonList" class="lesson-list"></div>
+  </div>
+
+  <div id="lessonCard" class="card" style="display:none;">
+    <div id="lessonArea"></div>
+  </div>
+</main>
+
+<footer class="site-footer">Latin text: the Leonine edition (Rome, 1888) as published by the Corpus Thomisticum (corpusthomisticum.org). Lessons, notes, and translations are original.</footer>
+
+<script type="module" src="js/lessons.js"></script>
+</body>
+</html>

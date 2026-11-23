@@ -1,0 +1,7 @@
+# The Corpus Thomisticum's pages and the full Latin text extracted from them stay out of the repository:
+# its edition is "© Fundación Tomás de Aquino, iura omnia asservantur" (all rights reserved). The site
+# itself quotes only single sentences, with credit. To rebuild, download the pages again (see README).
+tools/source/
+tools/text/summa-1-10.json
+
+.DS_Store

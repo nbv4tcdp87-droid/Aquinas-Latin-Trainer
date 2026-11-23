@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocabulary — Summa Latin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1><a href="index.html">Summa Latin</a></h1>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="flashcards.html" class="active">Vocabulary</a>
+    <a href="grammar.html">Grammar Charts</a>
+    <a href="translate.html">Translation</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card">
+    <h2>Choose questions to study</h2>
+    <div id="chapterPicker" class="chapter-picker"></div>
+    <div class="mode-toggle">
+      <button id="modeFlashcards" class="active">Flashcards</button>
+      <button id="modeLearn">Learning Mode</button>
+      <button id="modeTest">Test</button>
+    </div>
+  </div>
+
+  <div id="studyArea" class="card"></div>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script type="module" src="js/flashcards.js"></script>
+</body>
+</html>

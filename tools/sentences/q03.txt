@@ -1,0 +1,128 @@
+# Question 3: the simplicity of God.
+
+= Primo, utrum Deus sit corpus.
+@ I q. 3 pr.
+> First, whether God is a body.
+Primo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+corpus | n | nom sg n | subject-complement | corpus
+. | punct
+
+= Corpus enim est quod habet trinam dimensionem.
+@ I q. 3 a. 1 arg. 1
+> For a body is that which has three dimensions.
+! Trinam dimensionem, literally "threefold dimension": length, width, and depth.
+Corpus | n | nom sg n | subject | corpus
+enim | conj
+est | v | 3 sg pres ind | linking-verb | sum
+quod | pn | nom sg | subject | quī
+habet | v | 3 sg pres ind | transitive-verb | habeō
+trinam | adj | →dimensionem | trīnus
+dimensionem | n | acc sg f | direct-object | dīmēnsiō
+. | punct
+
+= Respondeo dicendum absolute Deum non esse corpus.
+@ I q. 3 a. 1 co.
+> I answer that it must be said that God is absolutely not a body.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+absolute | adv
+Deum | n | acc sg m | subject | Deus
+non | adv
+esse | vinf | pres act | indirect-statement | sum
+corpus | n | acc sg n | subject-complement | corpus
+. | punct
+
+= Ostensum est autem supra quod Deus est primum movens immobile.
+@ I q. 3 a. 1 co.
+> But it was shown above that God is the first unmoved mover.
+! Ostensum est is an impersonal perfect passive, "it has been shown"; supra points back to I, q. 2, a. 3. Movens, "a mover", is a participle used as a noun.
+Ostensum est | v | 3 sg perf ind | impersonal-verb,passive-verb,head-verb | ostendō
+autem | conj
+supra | adv
+quod | conj
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+primum | adj | →movens | prīmus
+movens | n | nom sg n | subject-complement | ~moveō
+immobile | adj | →movens | immōbilis
+. | punct
+
+= Respondeo dicendum quod Deus est idem quod sua essentia vel natura.
+@ I q. 3 a. 3 co.
+> I answer that it must be said that God is the same as his essence or nature.
+! Idem quod, "the same as"; est is understood after essentia vel natura.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+idem | pn | nom sg | subject-complement | īdem
+quod | conj
+sua | adj | →essentia | suus
+essentia | n | nom sg f | subject,subject-complement | essentia
+vel | conj
+natura | n | nom sg f | subject,subject-complement | nātūra
+. | punct
+
+= Impossibile est ergo quod in Deo sit aliud esse, et aliud eius essentia.
+@ I q. 3 a. 4 co.
+> It is impossible, therefore, that in God existence should be one thing and his essence another.
+! Aliud ... aliud, "one thing ... another"; the quod clause is the subject of impossibile est.
+Impossibile | adj | →- | impossibilis
+est | v | 3 sg pres ind | impersonal-verb,linking-verb | sum
+ergo | conj
+quod | conj
+in | prep
+Deo | n | abl sg m | object-of-prep | Deus
+sit | v | 3 sg pres subj | quod-clause,linking-verb | sum
+aliud | adj | →- | alius
+esse | n | nom sg n | subject | ~esse
+, | punct
+et | conj
+aliud | adj | →- | alius
+eius | pn | gen sg | possessive | is
+essentia | n | nom sg f | subject | essentia
+. | punct
+
+= Sua igitur essentia est suum esse.
+@ I q. 3 a. 4 co.
+> His essence, therefore, is his existence.
+Sua | adj | →essentia | suus
+igitur | conj
+essentia | n | nom sg f | subject | essentia
+est | v | 3 sg pres ind | linking-verb | sum
+suum | adj | →esse | suus
+esse | n | nom sg n | subject-complement | ~esse
+. | punct
+
+= Est igitur Deus suum esse, et non solum sua essentia.
+@ I q. 3 a. 4 co.
+> God, therefore, is his own existence, and not only his own essence.
+Est | v | 3 sg pres ind | linking-verb | sum
+igitur | conj
+Deus | n | nom sg m | subject | Deus
+suum | adj | →esse | suus
+esse | n | nom sg n | subject-complement | ~esse
+, | punct
+et | conj
+non | adv
+solum | adv
+sua | adj | →essentia | suus
+essentia | n | nom sg f | subject-complement | essentia
+. | punct
+
+= Substantia enim est ens per se subsistens.
+@ I q. 3 a. 5 arg. 1
+> For a substance is a being subsisting through itself.
+Substantia | n | nom sg f | subject | substantia
+enim | conj
+est | v | 3 sg pres ind | linking-verb | sum
+ens | n | nom sg n | subject-complement | ēns
+per | prep
+se | pn | acc sg | object-of-prep | sē
+subsistens | adj | →ens | subsistō
+. | punct

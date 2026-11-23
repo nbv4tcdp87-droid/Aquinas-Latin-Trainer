@@ -1,0 +1,174 @@
+# The Summa's vocabulary, one word per line (see tools/build-vocab.mjs):
+#   POS | Latin | genitive or principal parts | gender | declension or conjugation | English | note | flags
+# POS: N noun, V verb, A adjective, Pr pronoun, Adv adverb, Prep preposition, C conjunction, Num numeral.
+# Flags: dep (deponent), impers (impersonal verb), name (proper name), cite (abbreviation in a
+# citation), pnoun (participle used as a 3rd-declension noun: abl. -e, pl. -ia, -ium),
+# forms: extra forms the generator can't make, separated by spaces.
+Prep|ā, ab + ablative||||from, away from; by|ā Deō: by God|
+N|ablātiō|ablātiōnis|f.|3rd|removal, taking away||
+Adv|absolūtē||||absolutely, without qualification||
+Prep|absque + ablative||||without|medieval for sine|
+V|abstrahō|abstrahere, abstrāxī, abstractum||3rd|to abstract, draw away, separate||
+V|accēdō|accēdere, accessī, accessum||3rd|to approach, draw near; be added|accēditur: one approaches|
+N|accidēns|accidentis|n.|3rd|accident (a quality not of a thing's essence)|per accidēns: incidentally, not essentially|pnoun
+A|accidentālis, accidentāle|||3rd|accidental, not essential||
+V|accidō|accidere, accidī, ——||3rd|to happen, befall|accidit: it happens|
+V|accipiō|accipere, accēpī, acceptum||3rd (-iō)|to receive, take, accept; understand||
+N|āctiō|āctiōnis|f.|3rd|action, act||
+A|āctīvus, āctīva, āctīvum|||1st|active||
+N|āctus|āctūs|m.|4th|act, actuality|in āctū: actually, in act|
+N|āctuālitās|āctuālitātis|f.|3rd|actuality||
+Prep|ad + accusative||||to, toward; for, with respect to|ad prīmum: to the first (objection)|
+V|addō|addere, addidī, additum||3rd|to add||
+N|additiō|additiōnis|f.|3rd|addition||
+Adv|adhūc||||still, yet; even||
+V|adsum|adesse, adfuī, ——||irregular|to be present, be near||
+V|adiungō|adiungere, adiūnxī, adiūnctum||3rd|to join to, add||
+V|adveniō|advenīre, advēnī, adventum||4th|to come to, arrive; be added (to)||
+N|adverbium|adverbiī|n.|2nd|adverb||
+N|adversārius|adversāriī|m.|2nd|opponent, adversary||
+A|aequālis, aequāle|||3rd|equal||
+Adv|aequāliter||||equally||
+N|āēr|āeris|m.|3rd|air||
+N|aeternitās|aeternitātis|f.|3rd|eternity||
+A|aeternus, aeterna, aeternum|||1st|eternal||
+N|aetiologia|aetiologiae|f.|1st|aetiology, explanation of causes||
+N|aevum|aevī|n.|2nd|aeviternity, age|the measure of the being of angels, between time and eternity|
+A|aeviternus, aeviterna, aeviternum|||1st|aeviternal, measured by aevum||
+N|affectiō|affectiōnis|f.|3rd|affection, disposition, condition||
+N|affectus|affectūs|m.|4th|affection, feeling, desire||
+V|agō|agere, ēgī, āctum||3rd|to act, do, drive|agēns: agent|
+N|albēdō|albēdinis|f.|3rd|whiteness||
+A|albus, alba, album|||1st|white||
+Adv|alicubi||||somewhere||
+A|aliēnus, aliēna, aliēnum|||1st|belonging to another, foreign, alien||
+Adv|aliōquīn||||otherwise||
+Pr|aliquis, aliquid||||someone, something|as an adjective aliquī, aliqua, aliquod: some, any|forms:aliquis aliquid alicuius alicui aliquem aliquo aliqua aliquae aliquam aliqui aliquorum aliquarum aliquibus aliquos aliquas aliquod
+Adv|aliquandō||||sometimes, at some time||
+Adv|aliter||||otherwise, in another way||
+Adv|aliunde||||from elsewhere, from another source||
+A|alius, alia, aliud|||1st|other, another|alius ... alius: one ... another|
+N|allēgoria|allēgoriae|f.|1st|allegory||
+A|allēgoricus, allēgorica, allēgoricum|||1st|allegorical||
+A|alter, altera, alterum|||1st|the other (of two), second||
+N|altitūdō|altitūdinis|f.|3rd|height, depth||
+A|altus, alta, altum|||1st|high, deep||
+Adv|amplius||||more, further, any longer||
+C|an||||or (in questions); whether|an sit: whether it is|
+A|anagōgicus, anagōgica, anagōgicum|||1st|anagogical (pointing to heavenly things)||
+N|analogia|analogiae|f.|1st|analogy, proportion||
+N|angelus|angelī|m.|2nd|angel||
+N|anima|animae|f.|1st|soul||
+N|animal|animālis|n.|3rd|animal||
+Prep|ante + accusative||||before||
+C|antequam||||before||
+A|antīquus, antīqua, antīquum|||1st|ancient, old|antīquī: the ancients|
+N|apostolus|apostolī|m.|2nd|apostle; the Apostle (St. Paul)||
+V|appāreō|appārēre, appāruī, appāritum||2nd|to appear, be evident||
+A|appetibilis, appetibile|||3rd|desirable||
+V|appetō|appetere, appetīvī, appetītum||3rd|to desire, seek, tend toward||
+N|appetītus|appetītūs|m.|4th|appetite, desire||
+V|applicō|applicāre, applicāvī, applicātum||1st|to apply||
+V|apprehendō|apprehendere, apprehendī, apprehēnsum||3rd|to apprehend, grasp||
+N|apprehēnsiō|apprehēnsiōnis|f.|3rd|apprehension, grasp||
+V|appropinquō|appropinquāre, appropinquāvī, appropinquātum||1st|to approach, draw near||
+Prep|apud + accusative||||with, among, in the presence of||
+N|aqua|aquae|f.|1st|water||
+N|architector|architectōris|m.|3rd|architect, master builder||
+N|argūmentum|argūmentī|n.|2nd|argument, proof||
+V|argūmentor|argūmentārī, argūmentātus sum||1st|to argue, reason||dep
+A|argūmentātīvus, argūmentātīva, argūmentātīvum|||1st|argumentative, proceeding by argument||
+A|arithmēticus, arithmētica, arithmēticum|||1st|arithmetical; (m. as noun) arithmetician|arithmētica: arithmetic|
+N|articulus|articulī|m.|2nd|article (of faith; of a question)||
+V|assignō|assignāre, assignāvī, assignātum||1st|to assign, attribute||
+N|astrologus|astrologī|m.|2nd|astronomer||
+V|attendō|attendere, attendī, attentum||3rd|to attend to, consider||
+V|attribuō|attribuere, attribuī, attribūtum||3rd|to attribute, ascribe||
+N|auctor|auctōris|m.|3rd|author, originator||
+N|auctōritās|auctōritātis|f.|3rd|authority||
+A|audībilis, audībile|||3rd|audible||
+N|augmentum|augmentī|n.|2nd|increase, growth||
+C|aut||||or|aut ... aut: either ... or|
+C|autem||||however, moreover, but|second word in its clause|
+A|beātus, beāta, beātum|||1st|blessed, happy|beātī: the blessed (in heaven)|
+N|beātitūdō|beātitūdinis|f.|3rd|beatitude, happiness||
+N|bonitās|bonitātis|f.|3rd|goodness||
+A|bonus, bona, bonum|||1st|good|bonum: (the) good|
+N|brachium|brachiī|n.|2nd|arm||
+V|cadō|cadere, cecidī, cāsum||3rd|to fall|cadit sub: falls under|
+N|caecitās|caecitātis|f.|3rd|blindness||
+A|caelestis, caeleste|||3rd|heavenly, celestial||
+N|caelum|caelī|n.|2nd|heaven, sky||
+V|calefaciō|calefacere, calefēcī, calefactum||3rd (-iō)|to heat, make warm||
+A|calidus, calida, calidum|||1st|hot, warm||
+N|calor|calōris|m.|3rd|heat||
+N|caput|capitis|n.|3rd|head; chapter||
+V|careō|carēre, caruī, ——||2nd|to lack, be without (+ abl.)||
+N|carō|carnis|f.|3rd|flesh||
+N|causa|causae|f.|1st|cause; reason||
+N|causālitās|causālitātis|f.|3rd|causality||
+V|causō|causāre, causāvī, causātum||1st|to cause|causātum: an effect, a thing caused|
+N|centrum|centrī|n.|2nd|center||
+N|certitūdō|certitūdinis|f.|3rd|certainty||
+A|certus, certa, certum|||1st|certain, sure||
+A|cēterus, cētera, cēterum|||1st|the rest, the other||
+Prep|circā + accusative||||about, concerning; around||
+A|circulāris, circulāre|||3rd|circular||
+A|cīvīlis, cīvīle|||3rd|civil, political||
+V|cōgitō|cōgitāre, cōgitāvī, cōgitātum||1st|to think, think of, conceive||
+N|cognitiō|cognitiōnis|f.|3rd|knowledge, cognition||
+A|cognōscibilis, cognōscibile|||3rd|knowable||
+V|cognōscō|cognōscere, cognōvī, cognitum||3rd|to know, come to know, recognize||
+V|commēnsūrō|commēnsūrāre, commēnsūrāvī, commēnsūrātum||1st|to measure against, make commensurate||
+A|commūnis, commūne|||3rd|common, shared||
+V|commūnicō|commūnicāre, commūnicāvī, commūnicātum||1st|to share, communicate, have in common||
+Adv|commūniter||||commonly, in common||
+A|comparābilis, comparābile|||3rd|comparable||
+N|comparātiō|comparātiōnis|f.|3rd|comparison, relation||
+V|comparō|comparāre, comparāvī, comparātum||1st|to compare||
+V|compatior|compatī, compassus sum||3rd (-iō)|to be compatible with, suffer with||dep
+V|competō|competere, competīvī, competītum||3rd|to belong to, befit, apply to|competit: it belongs to, it is fitting|
+V|compleō|complēre, complēvī, complētum||2nd|to fill up, complete||
+N|compositiō|compositiōnis|f.|3rd|composition, putting together||
+A|compositus, composita, compositum|||1st|composite, compound||
+V|comprehendō|comprehendere, comprehendī, comprehēnsum||3rd|to comprehend, grasp, include||
+N|comprehēnsiō|comprehēnsiōnis|f.|3rd|comprehension||
+V|concēdō|concēdere, concessī, concessum||3rd|to concede, grant, allow||
+N|conceptiō|conceptiōnis|f.|3rd|conception||
+V|coniungō|coniungere, coniūnxī, coniūnctum||3rd|to join, unite||
+V|cōnsequor|cōnsequī, cōnsecūtus sum||3rd|to follow (upon), result; attain|cōnsequēns: consequent|dep
+Adv|cōnsequenter||||consequently, in turn||
+V|cōnservō|cōnservāre, cōnservāvī, cōnservātum||1st|to preserve, keep||
+N|cōnsīderātiō|cōnsīderātiōnis|f.|3rd|consideration||
+V|cōnsīderō|cōnsīderāre, cōnsīderāvī, cōnsīderātum||1st|to consider, look at||
+V|cōnsistō|cōnsistere, cōnstitī, ——||3rd|to consist (in), stand firm||
+V|cōnstituō|cōnstituere, cōnstituī, cōnstitūtum||3rd|to constitute, establish||
+N|contāctus|contāctūs|m.|4th|contact, touch||
+V|contineō|continēre, continuī, contentum||2nd|to contain, hold together||
+V|contingō|contingere, contigī, contāctum||3rd|to touch; happen|contingit: it happens, it is possible|
+N|continuitās|continuitātis|f.|3rd|continuity||
+A|continuus, continua, continuum|||1st|continuous||
+Prep|contrā + accusative||||against|sed contrā: but on the contrary|
+A|contradictōrius, contradictōria, contradictōrium|||1st|contradictory||
+V|contrahō|contrahere, contrāxī, contractum||3rd|to draw together, contract, restrict||
+A|contrārius, contrāria, contrārium|||1st|contrary, opposite||
+A|conveniēns, convenientis|||3rd|fitting, suitable||
+Adv|convenienter||||fittingly||
+V|conveniō|convenīre, convēnī, conventum||4th|to come together, agree; be fitting, belong to|convenit: it is fitting, it belongs to|
+V|convertō|convertere, convertī, conversum||3rd|to turn, convert; (pass.) to be convertible|ē conversō: conversely|
+A|corporālis, corporāle|||3rd|bodily, corporeal||
+A|corporeus, corporea, corporeum|||1st|corporeal, bodily||
+N|corpus|corporis|n.|3rd|body||
+A|corruptibilis, corruptibile|||3rd|corruptible, perishable||
+N|creātor|creātōris|m.|3rd|creator||
+N|creātūra|creātūrae|f.|1st|creature||
+V|creō|creāre, creāvī, creātum||1st|to create||
+V|crēdō|crēdere, crēdidī, crēditum||3rd|to believe, trust||
+Prep|cum + ablative||||with||
+C|cum||||when, since, although|cum + subjunctive: since, although|
+N|ancilla|ancillae|f.|1st|handmaid, maidservant||
+V|arguō|arguere, arguī, argūtum||3rd|to argue, prove; accuse||
+A|canonicus, canonica, canonicum|||1st|canonical||
+V|capiō|capere, cēpī, captum||3rd (-iō)|to take, grasp, contain||
+A|colōrātus, colōrāta, colōrātum|||1st|colored||
+N|cōnfūsiō|cōnfūsiōnis|f.|3rd|confusion||

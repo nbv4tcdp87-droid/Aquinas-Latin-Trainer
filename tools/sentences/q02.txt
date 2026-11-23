@@ -1,0 +1,118 @@
+# Question 2: whether God exists.
+
+= Primo, utrum Deum esse sit per se notum.
+@ I q. 2 pr.
+> First, whether God's existence is self-evident.
+! Deum esse, "that God exists" (literally "God to be"), is the subject of sit; per se notum, "known through itself", means self-evident.
+Primo | adv
+, | punct
+utrum | conj
+Deum | n | acc sg m | subject | Deus
+esse | vinf | pres act | subject-infinitive | sum
+sit | v | 3 sg pres subj | indirect-question | sum
+per | prep
+se | pn | acc sg | object-of-prep | sē
+notum | adj | →- | nōtus
+. | punct
+
+= Videtur quod Deus non sit.
+@ I q. 2 a. 3 arg. 1
+> It seems that God does not exist.
+! Without a complement, sum means "exist".
+Videtur | v | 3 sg pres ind | impersonal-verb,head-verb | videō
+quod | conj
+Deus | n | nom sg m | subject | Deus
+non | adv
+sit | v | 3 sg pres subj | quod-clause,intransitive-verb | sum
+. | punct
+
+= Deus enim est suum esse, ut infra patebit.
+@ I q. 2 a. 1 co.
+> For God is his own existence, as will be made clear below.
+! Esse with suum is a noun, "existence"; infra points ahead to I, q. 3, a. 4.
+Deus | n | nom sg m | subject | Deus
+enim | conj
+est | v | 3 sg pres ind | linking-verb | sum
+suum | adj | →esse | suus
+esse | n | nom sg n | subject-complement | ~esse
+, | punct
+ut | conj
+infra | adv
+patebit | v | 3 sg fut ind | intransitive-verb | pateō
+. | punct
+
+= Respondeo dicendum quod duplex est demonstratio.
+@ I q. 2 a. 2 co.
+> I answer that it must be said that demonstration is twofold.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+duplex | adj | →demonstratio | duplex
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+demonstratio | n | nom sg f | subject | dēmōnstrātiō
+. | punct
+
+= Respondeo dicendum quod Deum esse quinque viis probari potest.
+@ I q. 2 a. 3 co.
+> I answer that it must be said that God's existence can be proved in five ways.
+! Deum esse, "that God exists", is the subject of potest; quinque viis, "in five ways", is an ablative of means.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+Deum | n | acc sg m | subject | Deus
+esse | vinf | pres act | subject-infinitive | sum
+quinque | adj | →viis | quīnque
+viis | n | abl pl f | abl-instrument | via
+probari | vinf | pres pass | complementary-infinitive | probō
+potest | v | 3 sg pres ind | quod-clause,main-verb-complementary-infinitive | possum
+. | punct
+
+= Prima autem et manifestior via est, quae sumitur ex parte motus.
+@ I q. 2 a. 3 co.
+> The first and more evident way is the one taken from motion.
+! Ex parte motus, literally "from the side of motion": the argument starts from motion.
+Prima | adj | →via | prīmus
+autem | conj
+et | conj
+manifestior | adj | →via | manifēstus
+via | n | nom sg f | subject | via
+est | v | 3 sg pres ind | linking-verb,intransitive-verb | sum
+, | punct
+quae | pn | nom sg | subject | quī | ant=via
+sumitur | v | 3 sg pres ind | passive-verb | sūmō
+ex | prep
+parte | n | abl sg f | object-of-prep | pars
+motus | n | gen sg m | possessive | mōtus
+. | punct
+
+= Omne autem quod movetur, ab alio movetur.
+@ I q. 2 a. 3 co.
+> But everything that is moved is moved by another.
+Omne | pn | nom sg | subject | omnis
+autem | conj
+quod | pn | nom sg | subject | quī
+movetur | v | 3 sg pres ind | passive-verb | moveō
+, | punct
+ab | prep
+alio | pn | abl sg | abl-agent,object-of-prep | alius
+movetur | v | 3 sg pres ind | passive-verb | moveō
+. | punct
+
+= Ergo est necesse ponere aliquam causam efficientem primam, quam omnes Deum nominant.
+@ I q. 2 a. 3 co.
+> Therefore it is necessary to posit some first efficient cause, which everyone calls God.
+! Necesse est with an infinitive, "it is necessary to"; Deum is a predicate accusative after nominant, "call (it) God".
+Ergo | conj
+est | v | 3 sg pres ind | linking-verb,impersonal-verb | sum
+necesse | adj | →- | necesse
+ponere | vinf | pres act | subject-infinitive | pōnō
+aliquam | adj | →causam | aliquis
+causam | n | acc sg f | direct-object | causa
+efficientem | adj | →causam | efficiō
+primam | adj | →causam | prīmus
+, | punct
+quam | pn | acc sg | direct-object | quī | ant=causam
+omnes | pn | nom pl | subject | omnis
+Deum | n | acc sg m | subject-complement | Deus
+nominant | v | 3 pl pres ind | transitive-verb | nōminō
+. | punct

@@ -1,0 +1,120 @@
+# Question 5: goodness in general.
+
+= Primo, utrum bonum et ens sint idem secundum rem.
+@ I q. 5 pr.
+> First, whether the good and being are the same in reality.
+! Secundum rem, "according to the thing", means in reality; it is the opposite of secundum rationem, "in concept".
+Primo | adv
+, | punct
+utrum | conj
+bonum | n | nom sg n | subject | bonus
+et | conj
+ens | n | nom sg n | subject | ēns
+sint | v | 3 pl pres subj | indirect-question | sum
+idem | pn | nom sg | subject-complement | īdem
+secundum | prep
+rem | n | acc sg f | object-of-prep | rēs
+. | punct
+
+= Sexto, quomodo dividatur bonum in honestum, utile et delectabile.
+@ I q. 5 pr.
+> Sixth, how the good is divided into the virtuous, the useful, and the pleasant.
+! An indirect question with quomodo, "how", so the verb is subjunctive.
+Sexto | adv
+, | punct
+quomodo | adv
+dividatur | v | 3 sg pres subj | indirect-question | dīvidō
+bonum | n | nom sg n | subject | bonus
+in | prep
+honestum | n | acc sg n | object-of-prep | honestus
+, | punct
+utile | n | acc sg n | object-of-prep | ūtilis
+et | conj
+delectabile | n | acc sg n | object-of-prep | dēlectābilis
+. | punct
+
+= Videtur quod bonum differat secundum rem ab ente.
+@ I q. 5 a. 1 arg. 1
+> It seems that the good differs in reality from being.
+Videtur | v | 3 sg pres ind | impersonal-verb,head-verb | videō
+quod | conj
+bonum | n | nom sg n | subject | bonus
+differat | v | 3 sg pres subj | quod-clause,intransitive-verb | differō
+secundum | prep
+rem | n | acc sg f | object-of-prep | rēs
+ab | prep
+ente | n | abl sg n | object-of-prep,abl-separation | ēns
+. | punct
+
+= Praeterea, bonum suscipit magis et minus.
+@ I q. 5 a. 1 arg. 3
+> Furthermore, the good admits of more and less.
+Praeterea | adv
+, | punct
+bonum | n | nom sg n | subject | bonus
+suscipit | v | 3 sg pres ind | transitive-verb | suscipiō
+magis | adv
+et | conj
+minus | adv
+. | punct
+
+= Esse autem non suscipit magis et minus.
+@ I q. 5 a. 1 arg. 3
+> But being does not admit of more and less.
+! Esse is used here as a noun, "being".
+Esse | n | nom sg n | subject | ~esse
+autem | conj
+non | adv
+suscipit | v | 3 sg pres ind | transitive-verb | suscipiō
+magis | adv
+et | conj
+minus | adv
+. | punct
+
+= Unde id quod est ultimo perfectum, dicitur bonum simpliciter.
+@ I q. 5 a. 1 ad 1
+> Hence that which is ultimately perfect is called good without qualification.
+! Simpliciter, "simply", means absolutely, without qualification.
+Unde | adv
+id | pn | nom sg | subject | is
+quod | pn | nom sg | subject | quī
+est | v | 3 sg pres ind | linking-verb | sum
+ultimo | adv
+perfectum | adj | →- | perfectus
+, | punct
+dicitur | v | 3 sg pres ind | passive-verb,linking-verb | dīcō
+bonum | adj | →- | bonus
+simpliciter | adv
+. | punct
+
+= Respondeo dicendum quod ens secundum rationem est prius quam bonum.
+@ I q. 5 a. 2 co.
+> I answer that it must be said that in concept being is prior to the good.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+ens | n | nom sg n | subject | ēns
+secundum | prep
+rationem | n | acc sg f | object-of-prep | ratiō
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+prius | adj | →ens | prior
+quam | adv
+bonum | n | nom sg n | subject,subject-complement | bonus
+. | punct
+
+= Respondeo dicendum quod omne ens, inquantum est ens, est bonum.
+@ I q. 5 a. 3 co.
+> I answer that it must be said that every being, insofar as it is a being, is good.
+Respondeo | v | 1 sg pres ind | intransitive-verb | respondeō
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+omne | adj | →ens | omnis
+ens | n | nom sg n | subject | ēns
+, | punct
+inquantum | conj
+est | v | 3 sg pres ind | linking-verb | sum
+ens | n | nom sg n | subject-complement | ēns
+, | punct
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+bonum | adj | →ens | bonus
+. | punct

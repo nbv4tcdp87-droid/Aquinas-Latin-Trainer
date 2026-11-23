@@ -1,0 +1,121 @@
+# Question 4: the perfection of God.
+
+= Primo, utrum Deus sit perfectus.
+@ I q. 4 pr.
+> First, whether God is perfect.
+Primo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+perfectus | adj | →Deus | perfectus
+. | punct
+
+= Tertio, utrum creaturae similes Deo dici possint.
+@ I q. 4 pr.
+> Third, whether creatures can be called like God.
+! Similis takes the dative: similes Deo, "like God".
+Tertio | adv
+, | punct
+utrum | conj
+creaturae | n | nom pl f | subject | creātūra
+similes | adj | →creaturae | similis
+Deo | n | dat sg m | dat-adjective | Deus
+dici | vinf | pres pass | complementary-infinitive | dīcō
+possint | v | 3 pl pres subj | indirect-question | possum
+. | punct
+
+= Videtur quod esse perfectum non conveniat Deo.
+@ I q. 4 a. 1 arg. 1
+> It seems that being perfect does not belong to God.
+! Esse perfectum, "being perfect", is the subject of conveniat; convenire with the dative, "to belong to, befit".
+Videtur | v | 3 sg pres ind | impersonal-verb,head-verb | videō
+quod | conj
+esse | vinf | pres act | subject-infinitive | sum
+perfectum | adj | →- | perfectus
+non | adv
+conveniat | v | 3 sg pres subj | quod-clause,intransitive-verb | conveniō
+Deo | n | dat sg m | indirect-object,dat-reference | Deus
+. | punct
+
+= Perfectum enim dicitur quasi totaliter factum.
+@ I q. 4 a. 1 arg. 1
+> For "perfect" means, as it were, "completely made".
+! The objection explains the word perfectum as per-factum, "thoroughly made".
+Perfectum | n | nom sg n | subject | perfectus
+enim | conj
+dicitur | v | 3 sg pres ind | passive-verb,linking-verb | dīcō
+quasi | conj
+totaliter | adv
+factum | adj | →Perfectum | faciō
+. | punct
+
+= Praeterea, Deus est primum rerum principium.
+@ I q. 4 a. 1 arg. 2
+> Furthermore, God is the first principle of things.
+Praeterea | adv
+, | punct
+Deus | n | nom sg m | subject | Deus
+est | v | 3 sg pres ind | linking-verb | sum
+primum | adj | →principium | prīmus
+rerum | n | gen pl f | possessive,objective-genitive | rēs
+principium | n | nom sg n | subject-complement | prīncipium
+. | punct
+
+= Unde primum principium activum oportet maxime esse in actu, et per consequens maxime esse perfectum.
+@ I q. 4 a. 1 co.
+> Hence the first active principle must be most fully in act, and consequently most perfect.
+! Oportet takes an accusative and infinitive: primum principium is the subject of both infinitives. Per consequens, "consequently".
+Unde | adv
+primum | adj | →principium | prīmus
+principium | n | acc sg n | subject | prīncipium
+activum | adj | →principium | āctīvus
+oportet | v | 3 sg pres ind | impersonal-verb | oportet
+maxime | adv
+esse | vinf | pres act | subject-infinitive,indirect-statement | sum
+in | prep
+actu | n | abl sg m | object-of-prep | āctus
+, | punct
+et | conj
+per | prep
+consequens | n | acc sg n | object-of-prep | ~cōnsequor
+maxime | adv
+esse | vinf | pres act | subject-infinitive,indirect-statement | sum
+perfectum | adj | →principium | perfectus
+. | punct
+
+= Ad tertium dicendum quod ipsum esse est perfectissimum omnium, comparatur enim ad omnia ut actus.
+@ I q. 4 a. 1 ad 3
+> To the third, it must be said that being itself is the most perfect of all, for it is related to all things as act.
+! Ipsum esse, "being itself", is a noun here. Ad tertium (dicendum quod) begins the reply to the third objection.
+Ad | prep
+tertium | adj | →- | tertius
+dicendum | v | 3 sg pres ind | passive-periphrastic,head-verb | ~dīcō
+quod | conj
+ipsum | adj | →esse | ipse
+esse | n | nom sg n | subject | ~esse
+est | v | 3 sg pres ind | quod-clause,linking-verb | sum
+perfectissimum | adj | →esse | perfectus
+omnium | pn | gen pl | partitive | omnis
+, | punct
+comparatur | v | 3 sg pres ind | passive-verb | comparō
+enim | conj
+ad | prep
+omnia | pn | acc pl | object-of-prep | omnis
+ut | conj
+actus | n | nom sg m | subject-complement | āctus
+. | punct
+
+= Praeterea, opposita non possunt esse in eodem.
+@ I q. 4 a. 2 arg. 2
+> Furthermore, opposites cannot be in the same thing.
+! Opposita, a participle of oppōnō used as a noun, "opposites".
+Praeterea | adv
+, | punct
+opposita | n | nom pl n | subject | ~oppōnō
+non | adv
+possunt | v | 3 pl pres ind | main-verb-complementary-infinitive | possum
+esse | vinf | pres act | complementary-infinitive | sum
+in | prep
+eodem | pn | abl sg | object-of-prep | īdem
+. | punct

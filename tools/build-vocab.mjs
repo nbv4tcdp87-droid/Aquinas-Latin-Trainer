@@ -1,0 +1,130 @@
+// Builds data/vocabulary.js from the lexicon (tools/lexicon/*.txt) and the Summa's own text:
+// each word is listed under the first question (1-10) that uses it at least twice (or, for a word
+// no question uses twice, the first that uses it), so a word met once in passing is learned where
+// it starts to matter; only words that occur at least MIN_COUNT times in Qq. 1-10 are kept
+// (proper names and citation abbreviations never are).
+// Also writes tools/text/coverage.txt: forms of the text no lexicon word accounts for, lexicon words
+// that never occur (usually a wrong genitive or principal part), and forms shared by several words.
+//
+//   node tools/build-vocab.mjs
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { makeLexicon, tokensOf, plainForm } from './lexicon.mjs';
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.join(HERE, '..');
+export const MIN_COUNT = 3;
+
+const POS = { N: 'Noun', V: 'Verb', A: 'Adjective', Pr: 'Pronoun', Adv: 'Adverb', Prep: 'Preposition', C: 'Conjunction', Num: 'Numeral' };
+const POS_ORDER = ['Noun', 'Verb', 'Adjective', 'Pronoun', 'Numeral', 'Adverb', 'Preposition', 'Conjunction'];
+
+export function readLexicon() {
+  const entries = [];
+  const ids = new Set();
+  for (const file of fs.readdirSync(path.join(HERE, 'lexicon')).filter(f => f.endsWith('.txt')).sort()) {
+    const lines = fs.readFileSync(path.join(HERE, 'lexicon', file), 'utf8').split('\n');
+    lines.forEach((line, i) => {
+      if (!line.trim() || line.startsWith('#')) return;
+      const f = line.split('|');
+      if (f.length !== 8) throw new Error(`${file}:${i + 1}: expected 8 fields, found ${f.length}: ${line}`);
+      const [code, latin, third, gender, kind, english, notes, flagText] = f.map(s => s.trim());
+      const pos = POS[code];
+      if (!pos) throw new Error(`${file}:${i + 1}: unknown part of speech ${code}`);
+      const flags = new Set();
+      let forms = [], notForms = [];
+      for (const flag of flagText.split(';').map(s => s.trim()).filter(Boolean)) {
+        if (flag.startsWith('forms:')) forms = flag.slice(6).split(/\s+/).filter(Boolean);
+        else if (flag.startsWith('not:')) notForms = flag.slice(4).split(/\s+/).filter(Boolean);
+        else flags.add(flag);
+      }
+      const entry = {
+        pos, latin,
+        genitive: pos === 'Noun' ? third || null : null,
+        principal_parts: pos === 'Verb' ? third || null : null,
+        gender: pos === 'Noun' ? gender || null : pos === 'Adjective' ? 'm./f./n.' : null,
+        declension: pos === 'Noun' || pos === 'Adjective' ? kind || null : null,
+        conjugation: pos === 'Verb' ? kind || null : null,
+        english,
+        notes: notes || null,
+      };
+      if (flags.has('dep')) entry.deponent = true;
+      if (flags.has('impers')) entry.impersonal = true;
+      let id = plainForm(latin.split(/[,+(]/)[0].trim()).replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '') + '-' + code.toLowerCase();
+      if (/\+ accusative/.test(latin)) id += '-acc';
+      while (ids.has(id)) id += '2';
+      ids.add(id);
+      entry.id = id;
+      entries.push({ entry, forms, notForms, flags, file, line: i + 1 });
+    });
+  }
+  return entries;
+}
+
+async function main() {
+  const lexicon = readLexicon();
+  const { indexOf } = await makeLexicon(path.join(ROOT, 'js', 'morphology.js'));
+  const all = lexicon.map(x => ({ ...x.entry, forms: x.forms, notForms: x.notForms }));
+  const index = indexOf(all);
+  const byId = new Map(lexicon.map(x => [x.entry.id, x]));
+
+  const paragraphs = JSON.parse(fs.readFileSync(path.join(HERE, 'text', 'summa-1-10.json'), 'utf8'));
+  const tokens = tokensOf(paragraphs);
+  const count = new Map(), perQuestion = new Map(), uncovered = new Map(), shared = new Map();
+  for (const t of tokens) {
+    const ids = index.get(t.form);
+    if (!ids) {
+      const u = uncovered.get(t.form) || { n: 0, ref: t.ref };
+      u.n++;
+      uncovered.set(t.form, u);
+      continue;
+    }
+    const unique = [...new Set(ids)];
+    if (unique.length > 1) shared.set(t.form, { ids: unique, n: (shared.get(t.form)?.n || 0) + 1 });
+    for (const id of unique) {
+      count.set(id, (count.get(id) || 0) + 1);
+      if (!perQuestion.has(id)) perQuestion.set(id, Array(11).fill(0));
+      perQuestion.get(id)[t.question]++;
+    }
+  }
+  const questionOf = id => {
+    const uses = perQuestion.get(id);
+    const twice = uses.findIndex((n, q) => q > 0 && n >= 2);
+    return twice > 0 ? twice : uses.findIndex((n, q) => q > 0 && n > 0);
+  };
+
+  const vocab = lexicon
+    .filter(x => !x.flags.has('name') && !x.flags.has('cite') && (count.get(x.entry.id) || 0) >= MIN_COUNT)
+    .map(x => ({ chapter: questionOf(x.entry.id), ...x.entry, count: count.get(x.entry.id) }))
+    .sort((a, b) => a.chapter - b.chapter || POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos)
+      || plainForm(a.latin).localeCompare(plainForm(b.latin)));
+
+  const header = `// Vocabulary of Summa Theologiae I, qq. 1-10, generated by tools/build-vocab.mjs from the lexicon in
+// tools/lexicon/ -- edit those files and rebuild rather than editing this one. Each word's "chapter"
+// is the first question that uses it twice, and "count" is how often it occurs in Qq. 1-10.
+`;
+  fs.writeFileSync(path.join(ROOT, 'data', 'vocabulary.js'), `${header}export const VOCAB = ${JSON.stringify(vocab, null, 1)};\n`);
+
+  const covered = tokens.length - [...uncovered.values()].reduce((n, u) => n + u.n, 0);
+  const unused = lexicon.filter(x => !count.get(x.entry.id) && !x.flags.has('cite'));
+  const report = [
+    `${tokens.length} words in Qq. 1-10; the lexicon (${lexicon.length} entries) accounts for ${covered} (${(100 * covered / tokens.length).toFixed(1)}%).`,
+    `Vocabulary: ${vocab.length} words used at least ${MIN_COUNT} times.`,
+    'Per question: ' + Array.from({ length: 10 }, (_, i) => `Q${i + 1} ${vocab.filter(v => v.chapter === i + 1).length}`).join(', '),
+    'Words kept at other thresholds: ' + [1, 2, 3, 4, 5].map(n => `${n}+: ${lexicon.filter(x => !x.flags.has('name') && !x.flags.has('cite') && (count.get(x.entry.id) || 0) >= n).length}`).join(', '),
+    '',
+    `== Lexicon words never found (${unused.length}) ==`,
+    ...unused.map(x => `${x.file}:${x.line} ${x.entry.latin}`),
+    '',
+    `== Forms no word accounts for (${uncovered.size} forms, ${tokens.length - covered} words) ==`,
+    ...[...uncovered].sort((a, b) => b[1].n - a[1].n).map(([f, u]) => `${f} ${u.n} (${u.ref})`),
+    '',
+    `== Forms shared by several words (${shared.size}) ==`,
+    ...[...shared].sort((a, b) => b[1].n - a[1].n).map(([f, s]) => `${f} ${s.n}: ${s.ids.map(id => byId.get(id).entry.latin).join(' / ')}`),
+  ];
+  fs.writeFileSync(path.join(HERE, 'text', 'coverage.txt'), report.join('\n') + '\n');
+  console.log(report.slice(0, 4).join('\n'));
+  console.log(`unused lexicon words: ${unused.length}; uncovered forms: ${uncovered.size} (${tokens.length - covered} words) -> tools/text/coverage.txt`);
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) await main();

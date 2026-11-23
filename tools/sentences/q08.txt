@@ -1,0 +1,116 @@
+# Question 8: the existence of God in things.
+
+= Primo, utrum Deus sit in omnibus rebus.
+@ I q. 8 pr.
+> First, whether God is in all things.
+Primo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+in | prep
+omnibus | adj | →rebus | omnis
+rebus | n | abl pl f | object-of-prep | rēs
+. | punct
+
+= Secundo, utrum Deus sit ubique.
+@ I q. 8 pr.
+> Second, whether God is everywhere.
+Secundo | adv
+, | punct
+utrum | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | indirect-question | sum
+ubique | adv
+. | punct
+
+= Praeterea, quod est in aliquo, continetur ab eo.
+@ I q. 8 a. 1 arg. 2
+> Furthermore, what is in something is contained by it.
+Praeterea | adv
+, | punct
+quod | pn | nom sg | subject | quī
+est | v | 3 sg pres ind | intransitive-verb | sum
+in | prep
+aliquo | pn | abl sg | object-of-prep | aliquis
+, | punct
+continetur | v | 3 sg pres ind | passive-verb | contineō
+ab | prep
+eo | pn | abl sg | abl-agent,object-of-prep | is
+. | punct
+
+= Sed Deus non continetur a rebus, sed magis continet res.
+@ I q. 8 a. 1 arg. 2
+> But God is not contained by things; rather, he contains things.
+! Non ... sed magis, "not ... but rather".
+Sed | conj
+Deus | n | nom sg m | subject | Deus
+non | adv
+continetur | v | 3 sg pres ind | passive-verb | contineō
+a | prep
+rebus | n | abl pl f | object-of-prep,abl-agent | rēs
+, | punct
+sed | conj
+magis | adv
+continet | v | 3 sg pres ind | transitive-verb | contineō
+res | n | acc pl f | direct-object | rēs
+. | punct
+
+= Sed contra, ubicumque operatur aliquid, ibi est.
+@ I q. 8 a. 1 s. c.
+> But on the contrary, wherever something acts, there it is.
+Sed | conj
+contra | adv
+, | punct
+ubicumque | conj
+operatur | v | 3 sg pres ind | deponent-verb | operor
+aliquid | pn | nom sg | subject | aliquis
+, | punct
+ibi | adv
+est | v | 3 sg pres ind | intransitive-verb | sum
+. | punct
+
+= Unde oportet quod Deus sit in omnibus rebus, et intime.
+@ I q. 8 a. 1 co.
+> Hence God must be in all things, and intimately.
+Unde | adv
+oportet | v | 3 sg pres ind | impersonal-verb,head-verb | oportet
+quod | conj
+Deus | n | nom sg m | subject | Deus
+sit | v | 3 sg pres subj | quod-clause,intransitive-verb | sum
+in | prep
+omnibus | adj | →rebus | omnis
+rebus | n | abl pl f | object-of-prep | rēs
+, | punct
+et | conj
+intime | adv
+. | punct
+
+= Esse enim ubique significat esse in omni loco.
+@ I q. 8 a. 2 arg. 1
+> For to be everywhere means to be in every place.
+! The first infinitive is the subject of significat, the second its object.
+Esse | vinf | pres act | subject-infinitive | sum
+enim | conj
+ubique | adv
+significat | v | 3 sg pres ind | transitive-verb | significō
+esse | vinf | pres act | object-infinitive | sum
+in | prep
+omni | adj | →loco | omnis
+loco | n | abl sg m | object-of-prep | locus
+. | punct
+
+= Esse autem divinum non est successivum, sed permanens.
+@ I q. 8 a. 2 arg. 2
+> But the divine existence is not successive but permanent.
+! Esse with divinum is a noun, "existence"; permanens is a present participle, "remaining".
+Esse | n | nom sg n | subject | ~esse
+autem | conj
+divinum | adj | →Esse | dīvīnus
+non | adv
+est | v | 3 sg pres ind | linking-verb | sum
+successivum | adj | →Esse | successīvus
+, | punct
+sed | conj
+permanens | adj | →Esse | permaneō
+. | punct
