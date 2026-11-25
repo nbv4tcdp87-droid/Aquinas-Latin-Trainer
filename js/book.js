@@ -2,6 +2,9 @@
 // The pages load their data through here, and keep their shareable links in step with what's chosen.
 export const BOOK = { id: 1, name: 'Summa Theologiae I, Qq. 1–10', dir: '../data/' };
 
+// How many articles each question has. The vocabulary page offers each article's words as a set.
+export const ARTICLES_PER_QUESTION = { 1: 10, 2: 3, 3: 8, 4: 3, 5: 6, 6: 4, 7: 4, 8: 4, 9: 2, 10: 6 };
+
 export async function loadVocab() {
   return (await import(`${BOOK.dir}vocabulary.js`)).VOCAB;
 }

@@ -23,18 +23,24 @@ HTML/CSS/JS, so it runs from any static host. Progress is kept only in each stud
   model. Eight answers per lesson are scored on the first try; the best score shows on the lesson
   list (kept in the browser only).
 - **Vocabulary** (`flashcards.html`) — 676 words, each used at least three times in Qq. 1–10,
-  grouped by question. A word belongs to the first question that uses it at least twice, so a word
-  met once in passing is learned where it starts to matter; Question 1, the longest and the first,
-  carries the general vocabulary of scholastic Latin (353 words), and the later questions add their
-  own (from 6 in Q. 6 to 92 in Q. 3). Flashcards show the dictionary form (a noun with its genitive,
-  a verb with all its principal parts) and, on the back, the meaning, a usage note where the Summa
-  has a set phrase (*dīcendum est quod*: it must be said that; *per sē nōtum*: self-evident), and how
-  often the word occurs. Learning Mode and the 20-question Test work as on the LFNM site: typed
+  grouped by question and, within each question, by article. A word belongs to the first question
+  that uses it at least twice, so a word met once in passing is learned where it starts to matter;
+  Question 1, the longest and the first, carries the general vocabulary of scholastic Latin (353
+  words), and the later questions add their own (from 6 in Q. 6 to 92 in Q. 3). Within its question,
+  a word belongs to one article by the same rule (the question's prologue, its list of articles,
+  counts with Article 1), so the article sets share no word. They run from 112 words (Q. 1, Article
+  1, where the common words start) down to a single word; Q. 6, Article 1 has none, since every word
+  it uses belongs to an earlier question. Students choose a whole question, one or more of its
+  articles, or several of either, and the page shows how many words that is. Flashcards show the
+  dictionary form (a noun with its genitive, a verb with all its principal parts) and, on the back,
+  the meaning, a usage note where the Summa has a set phrase (*dīcendum est quod*: it must be said
+  that; *per sē nōtum*: self-evident), and how often the word occurs. Learning Mode and the 20-question Test work as on the LFNM site: typed
   questions for a fifth to a third of a round, missed questions asked again, and wrong choices of the
   same kind for verbs and adjectives. One difference: a typed word needs only its first form, the
   nominative of a noun, adjective, pronoun, or numeral (*ratio*, *bonus*) or the first principal
-  part of a verb (*moveo*), though the full dictionary entry is accepted too. Words from other questions fill in the choices when the chosen
-  questions are too few (Question 6 has six words).
+  part of a verb (*moveo*), though the full dictionary entry is accepted too. When the chosen
+  articles have too few words for the choices (Q. 7, Article 2 has one), the rest of their
+  questions' words fill in first, then the other questions'.
 - **Grammar Charts** (`grammar.html`) — every noun, adjective, pronoun, and verb chart of the LFNM
   site, filled with the Summa's words: all five declensions (with i-stems and the participle nouns
   *ēns* and *accidēns*: *ente*, but *entia*, *entium*), adjectives (including the -īus adjectives and
@@ -66,7 +72,8 @@ The LFNM site's Derivative Practice is not included.
 As on the LFNM site, each page keeps its address bar in step with what is chosen:
 `flashcards.html?ch=3-5&mode=test`, `grammar.html?chart=v-synopsis&word=moveo`,
 `translate.html?ch=2&sentence=s15` (`ch` is the question number; `ch=all` selects every question),
-`lessons.html?lesson=subjunctive-forms`.
+`lessons.html?lesson=subjunctive-forms`. On the vocabulary page `ch` can also name articles:
+`flashcards.html?ch=1.2-4,5&mode=learn` is Question 1, Articles 2–4, and all of Question 5.
 
 ## Where the content comes from
 
@@ -83,7 +90,7 @@ As on the LFNM site, each page keeps its address bar in step with what is chosen
   macrons, genitive or principal parts, gender, declension or conjugation, meaning, note, flags),
   written for this site. `tools/build-vocab.mjs` generates every form of every word with the site's
   morphology engine, matches them to the text (the lexicon accounts for 97% of its words; the rest
-  are words used once or twice), counts each word, assigns its question, and writes
+  are words used once or twice), counts each word, assigns its question and article, and writes
   `data/vocabulary.js`, plus `tools/text/coverage.txt` (forms not yet accounted for, and forms shared
   by two words). Proper names and citation abbreviations are matched but never become vocabulary.
   The Summa itself is printed without macrons; the vocabulary has them, and every answer accepts

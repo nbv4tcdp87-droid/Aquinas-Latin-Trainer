@@ -1,6 +1,7 @@
 27746 words in Qq. 1-10; the lexicon (772 entries) accounts for 26903 (97.0%).
 Vocabulary: 676 words used at least 3 times.
 Per question: Q1 353, Q2 56, Q3 92, Q4 22, Q5 44, Q6 6, Q7 27, Q8 22, Q9 21, Q10 33
+Per article: Q1 112/20/23/23/32/28/21/37/25/32, Q2 24/10/22, Q3 30/10/12/8/13/3/8/8, Q4 11/8/3, Q5 9/6/8/6/7/8, Q6 0/3/1/2, Q7 4/1/14/8, Q8 7/7/5/3, Q9 10/11, Q10 11/7/2/3/8/2
 Words kept at other thresholds: 1+: 753, 2+: 750, 3+: 676, 4+: 588, 5+: 521
 
 == Lexicon words never found (0) ==

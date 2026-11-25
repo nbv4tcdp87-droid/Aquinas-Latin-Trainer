@@ -1,22 +1,103 @@
-import { loadVocab, linkParam, updateLink } from './book.js';
-import { shuffle, parseChapterList, formatChapterList, principalPartsOf, insertAtCursor } from './util.js';
+import { loadVocab, linkParam, updateLink, ARTICLES_PER_QUESTION } from './book.js';
+import { shuffle, principalPartsOf, insertAtCursor } from './util.js';
 import { typedAnswerOf, typedHintOf, typedMatchOf } from './typed-answer.js';
 
 const VOCAB = await loadVocab();
 
-// Each word's "chapter" is the question of the Summa (1-10) whose vocabulary it belongs to.
+// Each word's "chapter" is the question of the Summa (1-10) whose vocabulary it belongs to, and its
+// "article" the article of that question it is learned in. Every word is in exactly one article's set
+// ("1.3": Question 1, Article 3), so the sets split each question's vocabulary without repeating a word.
 const CHAPTERS = [...new Set(VOCAB.map(v => v.chapter))].sort((a, b) => a - b);
+const setKey = (question, article) => `${question}.${article}`;
+const SETS = new Map();
+for (const v of VOCAB) {
+  const key = setKey(v.chapter, v.article);
+  if (!SETS.has(key)) SETS.set(key, []);
+  SETS.get(key).push(v);
+}
+// The articles of each question that have words. (Question 6, Article 1 has none: the words it uses
+// belong to earlier questions or come back more in later articles.)
+const ARTICLES = new Map(CHAPTERS.map(q => [q,
+  [...new Set(VOCAB.filter(v => v.chapter === q).map(v => v.article))].sort((a, b) => a - b)]));
+const ALL_SETS = CHAPTERS.flatMap(q => ARTICLES.get(q).map(a => setKey(q, a)));
+
+// Consecutive numbers as [first, last] runs: [1, 2, 3, 5] gives [[1, 3], [5, 5]].
+function runsOf(numbers) {
+  const runs = [];
+  for (const n of numbers) {
+    const run = runs[runs.length - 1];
+    if (run && n === run[1] + 1) run[1] = n;
+    else runs.push([n, n]);
+  }
+  return runs;
+}
+
+// The sets in a link: "all"; whole questions ("3", "3-5"); or articles of a question ("1.2" is
+// Question 1, Article 2, and "1.2-4" its Articles 2-4); separated by commas. So ch=1.1-3,4 is
+// Question 1, Articles 1-3, and all of Question 4. No value, or one naming no set, chooses none.
+function parseSetList(text) {
+  const chosen = new Set();
+  if (text == null) return chosen;
+  if (text.trim().toLowerCase() === 'all') return new Set(ALL_SETS);
+  const between = (n, a, b) => n >= Math.min(a, b) && n <= Math.max(a, b);
+  for (const part of text.split(',')) {
+    const m = part.trim().match(/^(\d+)(?:\.(\d+))?(?:-(\d+))?$/);
+    if (!m) continue;
+    const q = Number(m[1]);
+    if (m[2] === undefined) {
+      const last = m[3] === undefined ? q : Number(m[3]);
+      for (const ch of CHAPTERS.filter(ch => between(ch, q, last))) ARTICLES.get(ch).forEach(a => chosen.add(setKey(ch, a)));
+    } else {
+      const first = Number(m[2]), last = m[3] === undefined ? first : Number(m[3]);
+      for (const a of (ARTICLES.get(q) || []).filter(a => between(a, first, last))) chosen.add(setKey(q, a));
+    }
+  }
+  return chosen;
+}
+
+// The articles chosen in each question: [[1, [1, 2, 3]], [4, [1, 2, 3]]], with `whole` true for a
+// question whose every article is chosen.
+function chosenByQuestion(chosen) {
+  return CHAPTERS.map(q => {
+    const articles = ARTICLES.get(q).filter(a => chosen.has(setKey(q, a)));
+    return { q, articles, whole: articles.length === ARTICLES.get(q).length };
+  }).filter(x => x.articles.length);
+}
+
+// The link text for a selection: nothing when none is chosen (that is the starting point), "all"
+// for every set, whole questions as "3" or "3-5", and the articles of the rest as "1.1-3".
+function formatSetList(chosen) {
+  if (chosen.size === 0) return null;
+  if (chosen.size === ALL_SETS.length) return 'all';
+  const parts = [];
+  let whole = null;   // a run of whole questions, [first, last]
+  const endWhole = () => {
+    if (whole) parts.push(whole[0] === whole[1] ? `${whole[0]}` : `${whole[0]}-${whole[1]}`);
+    whole = null;
+  };
+  for (const { q, articles, whole: all } of chosenByQuestion(chosen)) {
+    if (all) {
+      if (whole && whole[1] === q - 1) whole[1] = q;
+      else { endWhole(); whole = [q, q]; }
+      continue;
+    }
+    endWhole();
+    for (const [a, b] of runsOf(articles)) parts.push(a === b ? `${q}.${a}` : `${q}.${a}-${b}`);
+  }
+  endWhole();
+  return parts.join(',');
+}
 
 const MODES = ['flashcards', 'learn', 'test'];
-// A link can preselect the questions and mode: flashcards.html?ch=3-5&mode=test
+// A link can preselect the sets and mode: flashcards.html?ch=1.2-4&mode=test
 const state = {
-  chapters: parseChapterList(linkParam('ch'), CHAPTERS), // none selected by default
+  sets: parseSetList(linkParam('ch')), // none chosen by default
   mode: MODES.includes(linkParam('mode')) ? linkParam('mode') : 'flashcards',
 };
 
 function syncLink() {
   updateLink({
-    ch: formatChapterList(state.chapters, CHAPTERS),
+    ch: formatSetList(state.sets),
     mode: state.mode === 'flashcards' ? null : state.mode,
   });
 }
@@ -27,35 +108,120 @@ const modeFlashcardsBtn = document.getElementById('modeFlashcards');
 const modeLearnBtn = document.getElementById('modeLearn');
 const modeTestBtn = document.getElementById('modeTest');
 
-function renderChapterPicker() {
-  chapterPicker.innerHTML = '';
-  const allChip = document.createElement('div');
-  allChip.className = 'chapter-chip' + (state.chapters.size === CHAPTERS.length ? ' selected' : '');
-  allChip.textContent = 'All';
-  allChip.onclick = () => {
-    if (state.chapters.size === CHAPTERS.length) state.chapters = new Set();
-    else state.chapters = new Set(CHAPTERS);
-    renderChapterPicker();
+const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+// The choice in words, with its size: "Q. 1, Articles 1–3; Qq. 4–5 · 197 words".
+function selectionSummary() {
+  if (state.sets.size === 0) return 'Nothing chosen yet.';
+  const n = plural(currentWords().length, 'word');
+  if (state.sets.size === ALL_SETS.length) return `All of Qq. 1–10 · ${n}`;
+  const parts = [];
+  let whole = null;   // a run of whole questions, [first, last]
+  for (const { q, articles, whole: all } of chosenByQuestion(state.sets)) {
+    if (all && whole && whole[1] === q - 1) { whole[1] = q; parts[parts.length - 1] = `Qq. ${whole[0]}–${q}`; continue; }
+    whole = all ? [q, q] : null;
+    if (all) { parts.push(`Q. ${q}`); continue; }
+    const runs = runsOf(articles).map(([a, b]) => (a === b ? `${a}` : `${a}–${b}`)).join(', ');
+    parts.push(`Q. ${q}, ${articles.length === 1 ? 'Article' : 'Articles'} ${runs}`);
+  }
+  return `${parts.join('; ')} · ${n}`;
+}
+
+// The picker: an "All" chip, then a row for each question, its first chip choosing the whole
+// question and the numbered chips its articles. A question with only some articles chosen is
+// shaded as partly chosen. The chips are made once and refreshed, so keyboard focus stays put.
+const picker = { all: null, summary: null, questions: new Map(), articles: new Map() };
+
+function makeChip(label, onChoose) {
+  const chip = document.createElement('div');
+  chip.className = 'chapter-chip';
+  chip.textContent = label;
+  if (!onChoose) {
+    chip.setAttribute('aria-disabled', 'true');
+    return chip;
+  }
+  chip.tabIndex = 0;
+  chip.setAttribute('role', 'button');
+  chip.onclick = () => {
+    onChoose();
+    refreshPicker();
     restart();
   };
-  chapterPicker.appendChild(allChip);
+  chip.onkeydown = e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    chip.click();
+  };
+  return chip;
+}
 
-  CHAPTERS.forEach(ch => {
-    const chip = document.createElement('div');
-    chip.className = 'chapter-chip' + (state.chapters.has(ch) ? ' selected' : '');
-    chip.textContent = 'Q. ' + ch;
-    chip.onclick = () => {
-      if (state.chapters.has(ch)) state.chapters.delete(ch);
-      else state.chapters.add(ch);
-      renderChapterPicker();
-      restart();
-    };
-    chapterPicker.appendChild(chip);
+function buildPicker() {
+  chapterPicker.innerHTML = '';
+  const top = document.createElement('div');
+  top.className = 'picker-top';
+  picker.all = makeChip('All', () => {
+    state.sets = state.sets.size === ALL_SETS.length ? new Set() : new Set(ALL_SETS);
   });
+  picker.summary = document.createElement('span');
+  picker.summary.className = 'picker-summary';
+  picker.summary.setAttribute('aria-live', 'polite');
+  top.append(picker.all, picker.summary);
+  chapterPicker.appendChild(top);
+
+  for (const q of CHAPTERS) {
+    const keys = ARTICLES.get(q).map(a => setKey(q, a));
+    const row = document.createElement('div');
+    row.className = 'article-row';
+    const qChip = makeChip(`Q. ${q}`, () => {
+      const every = keys.every(k => state.sets.has(k));
+      keys.forEach(k => (every ? state.sets.delete(k) : state.sets.add(k)));
+    });
+    qChip.classList.add('question-chip');
+    qChip.title = `All of Question ${q}: ${plural(keys.reduce((n, k) => n + SETS.get(k).length, 0), 'word')}`;
+    picker.questions.set(q, qChip);
+    const chips = document.createElement('div');
+    chips.className = 'article-chips';
+    const last = Math.max(ARTICLES_PER_QUESTION[q] || 0, ...ARTICLES.get(q));
+    for (let a = 1; a <= last; a++) {
+      const key = setKey(q, a), words = SETS.get(key)?.length || 0;
+      const chip = makeChip(`${a}`, words ? () => {
+        if (state.sets.has(key)) state.sets.delete(key);
+        else state.sets.add(key);
+      } : null);
+      chip.classList.add('article-chip');
+      if (words) {
+        chip.title = `Question ${q}, Article ${a}: ${plural(words, 'word')}`;
+        picker.articles.set(key, chip);
+      } else {
+        chip.classList.add('empty');
+        chip.title = `Question ${q}, Article ${a}: no new words`;
+      }
+      chips.appendChild(chip);
+    }
+    row.append(qChip, chips);
+    chapterPicker.appendChild(row);
+  }
+  refreshPicker();
+}
+
+function markChip(chip, chosen, partly = false) {
+  chip.classList.toggle('selected', chosen);
+  chip.classList.toggle('partial', partly && !chosen);
+  chip.setAttribute('aria-pressed', chosen ? 'true' : partly ? 'mixed' : 'false');
+}
+
+function refreshPicker() {
+  markChip(picker.all, state.sets.size === ALL_SETS.length, state.sets.size > 0);
+  for (const [q, chip] of picker.questions) {
+    const picked = ARTICLES.get(q).filter(a => state.sets.has(setKey(q, a))).length;
+    markChip(chip, picked === ARTICLES.get(q).length, picked > 0);
+  }
+  for (const [key, chip] of picker.articles) markChip(chip, state.sets.has(key));
+  picker.summary.textContent = selectionSummary();
 }
 
 function currentWords() {
-  return VOCAB.filter(v => state.chapters.has(v.chapter));
+  return VOCAB.filter(v => state.sets.has(setKey(v.chapter, v.article)));
 }
 
 // A noun with its genitive, a verb with its principal parts (every verb, from Question 1 on).
@@ -78,7 +244,7 @@ function startFlashcards() {
 
 function renderFlashcards() {
   if (fcState.deck.length === 0) {
-    studyArea.innerHTML = '<div class="empty-state">Select at least one question to begin.</div>';
+    studyArea.innerHTML = '<div class="empty-state">Choose a question or an article to begin.</div>';
     return;
   }
   const entry = fcState.deck[fcState.index];
@@ -95,7 +261,7 @@ function renderFlashcards() {
   const times = entry.count === 1 ? 'once' : `${entry.count} times`;
   studyArea.innerHTML = `
     <div class="flashcard-stage">
-      <div class="progress-text">Card ${fcState.index + 1} of ${fcState.deck.length} &middot; Question ${entry.chapter}</div>
+      <div class="progress-text">Card ${fcState.index + 1} of ${fcState.deck.length} &middot; Question ${entry.chapter}, Article ${entry.article}</div>
       <div class="flashcard ${fcState.flipped ? 'flipped' : ''}" id="fcCard">
         <div class="flashcard-inner">
           <div class="flashcard-face front">
@@ -215,9 +381,11 @@ const TEST_CHOICES = 6;
 // also be a right answer, or if it would display the same text as another option. When
 // the choices are Latin and the answer is a verb, the wrong choices are verbs (so the
 // principal parts don't give it away); an adjective's are adjectives, so its other forms
-// don't either. Words from the other questions fill in when the chosen questions run
-// short (Question 6 has only six words).
+// don't either. When the chosen articles run short (Question 7, Article 2 has one word), the
+// rest of their questions' words fill in first, then the other questions'.
 function buildOptions(entry, direction, count = LEARN_CHOICES) {
+  const questions = new Set([...state.sets].map(key => Number(key.split('.')[0])));
+  const pools = [currentWords(), VOCAB.filter(v => questions.has(v.chapter)), VOCAB];
   const prompt = displayFront(entry, direction);
   const seen = new Set([displayOption(entry, direction)]);
   const distractors = [];
@@ -233,11 +401,9 @@ function buildOptions(entry, direction, count = LEARN_CHOICES) {
   if (direction === 'e2l' && (entry.pos === 'Verb' || entry.pos === 'Adjective')) {
     const hasParts = w => principalPartsOf(w, PARTS_FROM_CHAPTER).length > 0;
     const shownLikeIt = w => w.pos === entry.pos && hasParts(w) === hasParts(entry);
-    add(currentWords().filter(shownLikeIt));
-    add(VOCAB.filter(shownLikeIt));
+    pools.forEach(words => add(words.filter(shownLikeIt)));
   }
-  add(currentWords());
-  add(VOCAB);
+  pools.forEach(add);
   return shuffle([entry, ...distractors]);
 }
 
@@ -258,7 +424,7 @@ function displayOption(entry, direction) {
 
 function renderLearn() {
   if (lmState.total === 0) {
-    studyArea.innerHTML = '<div class="empty-state">Select at least one question to begin.</div>';
+    studyArea.innerHTML = '<div class="empty-state">Choose a question or an article to begin.</div>';
     return;
   }
   const question = lmState.current;
@@ -378,7 +544,7 @@ function renderLearnComplete() {
     <div class="empty-state">
       <div style="font-size:2.4rem;">🎉</div>
       <h2 style="color:var(--maroon-dark);">Activity complete!</h2>
-      <p>You answered all ${lmState.total} words correctly.</p>
+      <p>${lmState.total === 1 ? "You answered the word correctly." : `You answered all ${lmState.total} words correctly.`}</p>
       <button id="lmRestart">Study again</button>
     </div>
   `;
@@ -400,7 +566,7 @@ function startTest() {
 function nextTestQuestion() {
   testState.answered = false;
   if (testState.questions.length === 0) {
-    renderTest(); // "Select at least one question", not "Test complete! 0/0"
+    renderTest(); // "Choose a question or an article", not "Test complete! 0/0"
     return;
   }
   if (testState.index >= testState.questions.length) {
@@ -418,7 +584,7 @@ function nextTestQuestion() {
 
 function renderTest() {
   if (testState.questions.length === 0) {
-    studyArea.innerHTML = '<div class="empty-state">Select at least one question to begin.</div>';
+    studyArea.innerHTML = '<div class="empty-state">Choose a question or an article to begin.</div>';
     return;
   }
   const { current, direction, options, index, questions, correct } = testState;
@@ -493,5 +659,5 @@ function setMode(mode) {
 }
 modeButtons.forEach(([btn, mode]) => { btn.onclick = () => setMode(mode); });
 
-renderChapterPicker();
+buildPicker();
 setMode(state.mode);

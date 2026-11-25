@@ -115,10 +115,10 @@ function activeVoice() {
 
 const VERB_LIKE = new Set(['verb', 'participle', 'gerund', 'synopsis']);
 
-// Where the Summa uses the chosen word: the question whose vocabulary it belongs to.
+// Where the Summa uses the chosen word: the question and article whose vocabulary it belongs to.
 function chapterNote(chart, entry) {
   const times = entry.count === 1 ? 'once' : `${entry.count} times`;
-  return `Question ${entry.chapter} vocabulary · used ${times} in Qq. 1–10`;
+  return `Question ${entry.chapter}, Article ${entry.article} vocabulary · used ${times} in Qq. 1–10`;
 }
 
 // A conjugation chart needs the verb's 1st person singular as its headword, so a verb
